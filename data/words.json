@@ -1,0 +1,3493 @@
+  [
+  {
+    "id": 1,
+    "word": "abandon",
+    "meaning": "يتخلى عن / يهجر",
+    "example": "She had to abandon her car in the storm.",
+    "exampleTranslation": "اضطرت إلى التخلي عن سيارتها في العاصفة."
+  },
+  {
+    "id": 2,
+    "word": "abortion",
+    "meaning": "إجهاض",
+    "example": "The topic of abortion is controversial in many countries.",
+    "exampleTranslation": "موضوع الإجهاض مثير للجدل في العديد من الدول."
+  },
+  {
+    "id": 3,
+    "word": "abroad",
+    "meaning": "في الخارج / إلى الخارج",
+    "example": "He studied abroad for two years in Germany.",
+    "exampleTranslation": "درس في الخارج لمدة سنتين في ألمانيا."
+  },
+  {
+    "id": 4,
+    "word": "absorb",
+    "meaning": "يمتص / يستوعب",
+    "example": "Sponges can absorb a lot of water.",
+    "exampleTranslation": "الإسفنج يمكنه امتصاص الكثير من الماء."
+  },
+  {
+    "id": 5,
+    "word": "abuse",
+    "meaning": "إساءة / سوء معاملة",
+    "example": "The child suffered from emotional abuse.",
+    "exampleTranslation": "عانى الطفل من إساءة عاطفية."
+  },
+  {
+    "id": 6,
+    "word": "academic",
+    "meaning": "أكاديمي / متعلق بالدراسة",
+    "example": "She has excellent academic achievements.",
+    "exampleTranslation": "لديها إنجازات أكاديمية ممتازة."
+  },
+  {
+    "id": 7,
+    "word": "accompany",
+    "meaning": "يصاحب / يرافق",
+    "example": "I will accompany you to the airport.",
+    "exampleTranslation": "سأرافقك إلى المطار."
+  },
+  {
+    "id": 8,
+    "word": "accomplish",
+    "meaning": "ينجز / يحقق",
+    "example": "She accomplished all her goals this year.",
+    "exampleTranslation": "حققت جميع أهدافها هذا العام."
+  },
+  {
+    "id": 9,
+    "word": "accurate",
+    "meaning": "دقيق / مضبوط",
+    "example": "The measurements must be accurate.",
+    "exampleTranslation": "يجب أن تكون القياسات دقيقة."
+  },
+  {
+    "id": 10,
+    "word": "accuse",
+    "meaning": "يتهم",
+    "example": "He was accused of stealing the money.",
+    "exampleTranslation": "تم اتهامه بسرقة المال."
+  },
+  {
+    "id": 11,
+    "word": "acknowledge",
+    "meaning": "يعترف / يقر",
+    "example": "She acknowledged her mistakes.",
+    "exampleTranslation": "اعترفت بأخطائها."
+  },
+  {
+    "id": 12,
+    "word": "acquire",
+    "meaning": "يكتسب / يحصل على",
+    "example": "He acquired a new skill through practice.",
+    "exampleTranslation": "اكتسب مهارة جديدة من خلال الممارسة."
+  },
+  {
+    "id": 13,
+    "word": "activist",
+    "meaning": "ناشط / مؤيد لقضية",
+    "example": "She is a human rights activist.",
+    "exampleTranslation": "هي ناشطة في حقوق الإنسان."
+  },
+  {
+    "id": 14,
+    "word": "activity",
+    "meaning": "نشاط / فعالية",
+    "example": "Outdoor activities are good for health.",
+    "exampleTranslation": "الأنشطة الخارجية مفيدة للصحة."
+  },
+  {
+    "id": 15,
+    "word": "adapt",
+    "meaning": "يتكيف / يكيف",
+    "example": "Animals adapt to their environment.",
+    "exampleTranslation": "تتكيف الحيوانات مع بيئتها."
+  },
+  {
+    "id": 16,
+    "word": "addition",
+    "meaning": "إضافة",
+    "example": "The addition of a new room improved the house.",
+    "exampleTranslation": "إضافة غرفة جديدة حسنت المنزل."
+  },
+  {
+    "id": 17,
+    "word": "additional",
+    "meaning": "إضافي",
+    "example": "We need additional information.",
+    "exampleTranslation": "نحتاج إلى معلومات إضافية."
+  },
+  {
+    "id": 18,
+    "word": "adequate",
+    "meaning": "كافٍ / مناسب",
+    "example": "Make sure you have adequate resources.",
+    "exampleTranslation": "تأكد من أن لديك موارد كافية."
+  },
+  {
+    "id": 19,
+    "word": "adjust",
+    "meaning": "يضبط / يعدل",
+    "example": "Adjust the volume to a comfortable level.",
+    "exampleTranslation": "اضبط مستوى الصوت على مستوى مريح."
+  },
+  {
+    "id": 20,
+    "word": "adjustment",
+    "meaning": "تعديل / ضبط",
+    "example": "He made an adjustment to the schedule.",
+    "exampleTranslation": "قام بإجراء تعديل على الجدول."
+  },
+  {
+    "id": 21,
+    "word": "administration",
+    "meaning": "إدارة / حكومة",
+    "example": "The administration announced new policies.",
+    "exampleTranslation": "أعلنت الإدارة عن سياسات جديدة."
+  },
+  {
+    "id": 22,
+    "word": "administrator",
+    "meaning": "مسؤول / مدير",
+    "example": "The school administrator handled the problem.",
+    "exampleTranslation": "تعامل مدير المدرسة مع المشكلة."
+  },
+  {
+    "id": 23,
+    "word": "admission",
+    "meaning": "قبول / دخول",
+    "example": "He gained admission to the university.",
+    "exampleTranslation": "حصل على القبول في الجامعة."
+  },
+  {
+    "id": 24,
+    "word": "admit",
+    "meaning": "يعترف / يقبل",
+    "example": "She admitted her mistake.",
+    "exampleTranslation": "اعترفت بخطئها."
+  },
+  {
+    "id": 25,
+    "word": "adolescent",
+    "meaning": "مراهق",
+    "example": "Adolescents face many challenges.",
+    "exampleTranslation": "يواجه المراهقون العديد من التحديات."
+  },
+  {
+    "id": 26,
+    "word": "adopt",
+    "meaning": "يتبنى / يتخذ",
+    "example": "They decided to adopt a child.",
+    "exampleTranslation": "قرروا تبني طفل."
+  },
+  {
+    "id": 27,
+    "word": "advance",
+    "meaning": "يتقدم / تقدم",
+    "example": "Technology continues to advance rapidly.",
+    "exampleTranslation": "تستمر التكنولوجيا في التقدم بسرعة."
+  },
+  {
+    "id": 28,
+    "word": "advanced",
+    "meaning": "متقدم",
+    "example": "He is taking an advanced course in math.",
+    "exampleTranslation": "هو يأخذ دورة متقدمة في الرياضيات."
+  },
+  {
+    "id": 29,
+    "word": "adventure",
+    "meaning": "مغامرة",
+    "example": "They went on an exciting adventure.",
+    "exampleTranslation": "ذهبوا في مغامرة مثيرة."
+  },
+  {
+    "id": 30,
+    "word": "advertising",
+    "meaning": "إعلان / تسويق",
+    "example": "The company invested in advertising campaigns.",
+    "exampleTranslation": "استثمرت الشركة في حملات إعلانية."
+  },
+  {
+    "id": 31,
+    "word": "advice",
+    "meaning": "نصيحة",
+    "example": "She gave me good advice.",
+    "exampleTranslation": "قدمت لي نصيحة جيدة."
+  },
+  {
+    "id": 32,
+    "word": "advise",
+    "meaning": "ينصح",
+    "example": "I advise you to rest.",
+    "exampleTranslation": "أنصحك بالراحة."
+  },
+  {
+    "id": 33,
+    "word": "adviser",
+    "meaning": "مستشار",
+    "example": "He is my financial adviser.",
+    "exampleTranslation": "هو مستشاري المالي."
+  },
+  {
+    "id": 34,
+    "word": "advocate",
+    "meaning": "يدافع عن / مؤيد",
+    "example": "She advocates for animal rights.",
+    "exampleTranslation": "هي تدافع عن حقوق الحيوان."
+  },
+  {
+    "id": 35,
+    "word": "affair",
+    "meaning": "مسألة / علاقة",
+    "example": "The company is handling a legal affair.",
+    "exampleTranslation": "تتعامل الشركة مع مسألة قانونية."
+  },
+  {
+    "id": 36,
+    "word": "afford",
+    "meaning": "يستطيع تحمل / يستطيع شراء",
+    "example": "I can't afford a new car right now.",
+    "exampleTranslation": "لا أستطيع شراء سيارة جديدة الآن."
+  },
+  {
+    "id": 37,
+    "word": "agenda",
+    "meaning": "جدول أعمال",
+    "example": "The meeting agenda was shared in advance.",
+    "exampleTranslation": "تم مشاركة جدول أعمال الاجتماع مسبقًا."
+  },
+  {
+    "id": 38,
+    "word": "aggressive",
+    "meaning": "عدواني / مندفع",
+    "example": "He has an aggressive personality.",
+    "exampleTranslation": "لديه شخصية مندفعه."
+  },
+  {
+    "id": 39,
+    "word": "agricultural",
+    "meaning": "زراعي",
+    "example": "The region has an agricultural economy.",
+    "exampleTranslation": "المنطقة تعتمد على الاقتصاد الزراعي."
+  },
+  {
+    "id": 40,
+    "word": "ahead",
+    "meaning": "أمام / متقدم",
+    "example": "We are ahead of schedule.",
+    "exampleTranslation": "نحن متقدمون على الجدول الزمني."
+  },
+  {
+    "id": 41,
+    "word": "aid",
+    "meaning": "مساعدة / دعم",
+    "example": "They provided aid to the disaster victims.",
+    "exampleTranslation": "قدموا المساعدة لضحايا الكارثة."
+  },
+  {
+    "id": 42,
+    "word": "aide",
+    "meaning": "مساعد",
+    "example": "He works as a presidential aide.",
+    "exampleTranslation": "يعمل كمساعد رئاسي."
+  },
+  {
+    "id": 43,
+    "word": "airline",
+    "meaning": "شركة طيران",
+    "example": "She booked a flight with a major airline.",
+    "exampleTranslation": "حجزت رحلة مع شركة طيران كبيرة."
+  },
+  {
+    "id": 44,
+    "word": "airport",
+    "meaning": "مطار",
+    "example": "The airport was crowded with travelers.",
+    "exampleTranslation": "كان المطار مزدحمًا بالمسافرين."
+  },
+  {
+    "id": 45,
+    "word": "album",
+    "meaning": "ألبوم",
+    "example": "He released a new music album.",
+    "exampleTranslation": "أصدر ألبوم موسيقي جديد."
+  },
+  {
+    "id": 46,
+    "word": "alcohol",
+    "meaning": "كحول",
+    "example": "Alcohol consumption should be moderate.",
+    "exampleTranslation": "يجب أن يكون استهلاك الكحول معتدلًا."
+  },
+  {
+    "id": 47,
+    "word": "alive",
+    "meaning": "على قيد الحياة / حي",
+    "example": "The patient is still alive.",
+    "exampleTranslation": "المريض ما زال على قيد الحياة."
+  },
+  {
+    "id": 48,
+    "word": "alliance",
+    "meaning": "تحالف",
+    "example": "The countries formed a military alliance.",
+    "exampleTranslation": "شكلت الدول تحالفًا عسكريًا."
+  },
+  {
+    "id": 49,
+    "word": "ally",
+    "meaning": "حليف",
+    "example": "They became allies in the fight against crime.",
+    "exampleTranslation": "أصبحوا حلفاء في مكافحة الجريمة."
+  },
+  {
+    "id": 50,
+    "word": "along",
+    "meaning": "على طول / معًا",
+    "example": "We walked along the river.",
+    "exampleTranslation": "سِرنا على طول النهر."
+  } ,
+   {
+    "id": 51,
+    "word": "alter",
+    "meaning": "يغيّر / يعدل",
+    "example": "She altered her dress for the party.",
+    "exampleTranslation": "قامت بتعديل فستانها للحفلة."
+  },
+  {
+    "id": 52,
+    "word": "although",
+    "meaning": "على الرغم من",
+    "example": "Although it rained, we went hiking.",
+    "exampleTranslation": "على الرغم من المطر، ذهبنا في رحلة مشي."
+  },
+  {
+    "id": 53,
+    "word": "analysis",
+    "meaning": "تحليل",
+    "example": "The analysis of data took several hours.",
+    "exampleTranslation": "استغرق تحليل البيانات عدة ساعات."
+  },
+  {
+    "id": 54,
+    "word": "analyst",
+    "meaning": "محلل",
+    "example": "The financial analyst predicted market trends.",
+    "exampleTranslation": "توقع المحلل المالي اتجاهات السوق."
+  },
+  {
+    "id": 55,
+    "word": "analyze",
+    "meaning": "يحلل",
+    "example": "We need to analyze the results carefully.",
+    "exampleTranslation": "نحتاج إلى تحليل النتائج بعناية."
+  },
+  {
+    "id": 56,
+    "word": "ancient",
+    "meaning": "قديم / عتيق",
+    "example": "They visited ancient ruins in Greece.",
+    "exampleTranslation": "زاروا آثارًا قديمة في اليونان."
+  },
+  {
+    "id": 57,
+    "word": "angle",
+    "meaning": "زاوية / منظور",
+    "example": "He studied the problem from every angle.",
+    "exampleTranslation": "درس المشكلة من كل زاوية."
+  },
+  {
+    "id": 58,
+    "word": "anniversary",
+    "meaning": "ذكرى / عيد سنوي",
+    "example": "They celebrated their wedding anniversary.",
+    "exampleTranslation": "احتفلوا بذكرى زواجهم."
+  },
+  {
+    "id": 59,
+    "word": "announce",
+    "meaning": "يعلن / يصرح",
+    "example": "The company announced a new product.",
+    "exampleTranslation": "أعلنت الشركة عن منتج جديد."
+  },
+  {
+    "id": 60,
+    "word": "annual",
+    "meaning": "سنوي",
+    "example": "The annual festival attracts many visitors.",
+    "exampleTranslation": "يجذب المهرجان السنوي العديد من الزوار."
+  },
+  {
+    "id": 61,
+    "word": "anticipate",
+    "meaning": "يتوقع / يتنبأ",
+    "example": "We anticipate a rise in demand.",
+    "exampleTranslation": "نتوقع زيادة في الطلب."
+  },
+  {
+    "id": 62,
+    "word": "anxiety",
+    "meaning": "قلق / توتر",
+    "example": "She felt anxiety before the exam.",
+    "exampleTranslation": "شعرت بالقلق قبل الامتحان."
+  },
+  {
+    "id": 63,
+    "word": "apart",
+    "meaning": "بعيد / منفصل",
+    "example": "They live miles apart.",
+    "exampleTranslation": "يعيشون على بعد أميال عن بعضهم."
+  },
+  {
+    "id": 64,
+    "word": "apartment",
+    "meaning": "شقة",
+    "example": "She rented a new apartment downtown.",
+    "exampleTranslation": "استأجرت شقة جديدة في وسط المدينة."
+  },
+  {
+    "id": 65,
+    "word": "apparent",
+    "meaning": "واضح / ظاهر",
+    "example": "It became apparent that he was tired.",
+    "exampleTranslation": "أصبح واضحًا أنه متعب."
+  },
+  {
+    "id": 66,
+    "word": "apparently",
+    "meaning": "على ما يبدو / على ما يظهر",
+    "example": "Apparently, they are moving to a new city.",
+    "exampleTranslation": "على ما يبدو، سيانتقلون إلى مدينة جديدة."
+  },
+  {
+    "id": 67,
+    "word": "appeal",
+    "meaning": "يناشد / جاذبية",
+    "example": "The charity appeal raised thousands of dollars.",
+    "exampleTranslation": "جمع نداء الجمعية الخيرية آلاف الدولارات."
+  },
+  {
+    "id": 68,
+    "word": "appear",
+    "meaning": "يظهر / يبدو",
+    "example": "She appeared happy at the party.",
+    "exampleTranslation": "بدت سعيدة في الحفلة."
+  },
+  {
+    "id": 69,
+    "word": "appearance",
+    "meaning": "مظهر / ظهور",
+    "example": "His appearance surprised everyone.",
+    "exampleTranslation": "فاجأ مظهره الجميع."
+  },
+  {
+    "id": 70,
+    "word": "apply",
+    "meaning": "يتقدم بطلب / يطبق",
+    "example": "She applied for a new job.",
+    "exampleTranslation": "تقدمت لوظيفة جديدة."
+  },
+  {
+    "id": 71,
+    "word": "appoint",
+    "meaning": "يعين / يحدد",
+    "example": "He was appointed manager of the department.",
+    "exampleTranslation": "تم تعيينه مديرًا للقسم."
+  },
+  {
+    "id": 72,
+    "word": "appointment",
+    "meaning": "موعد / تعيين",
+    "example": "I have a dentist appointment tomorrow.",
+    "exampleTranslation": "لدي موعد مع طبيب الأسنان غدًا."
+  },
+  {
+    "id": 73,
+    "word": "appreciate",
+    "meaning": "يقدر / يثمن",
+    "example": "I really appreciate your help.",
+    "exampleTranslation": "أنا أقدر مساعدتك حقًا."
+  },
+  {
+    "id": 74,
+    "word": "approach",
+    "meaning": "نهج / يقترب",
+    "example": "We need a new approach to solve the problem.",
+    "exampleTranslation": "نحتاج إلى نهج جديد لحل المشكلة."
+  },
+  {
+    "id": 75,
+    "word": "appropriate",
+    "meaning": "ملائم / مناسب",
+    "example": "Wear appropriate clothing for the event.",
+    "exampleTranslation": "ارتدِ ملابس مناسبة للفعالية."
+  },
+  {
+    "id": 76,
+    "word": "approval",
+    "meaning": "موافقة / قبول",
+    "example": "The project received approval from the board.",
+    "exampleTranslation": "حصل المشروع على موافقة المجلس."
+  },
+  {
+    "id": 77,
+    "word": "approve",
+    "meaning": "يوافق / يصدق",
+    "example": "The committee approved the proposal.",
+    "exampleTranslation": "وافقت اللجنة على الاقتراح."
+  },
+  {
+    "id": 78,
+    "word": "approximately",
+    "meaning": "تقريبًا",
+    "example": "The trip will take approximately two hours.",
+    "exampleTranslation": "ستستغرق الرحلة حوالي ساعتين."
+  },
+  {
+    "id": 79,
+    "word": "architect",
+    "meaning": "مهندس معماري",
+    "example": "The architect designed a modern building.",
+    "exampleTranslation": "صمم المهندس المعماري مبنى حديث."
+  },
+  {
+    "id": 80,
+    "word": "argument",
+    "meaning": "حجة / جدال",
+    "example": "They had an argument about politics.",
+    "exampleTranslation": "كان لديهم جدال حول السياسة."
+  },
+  {
+    "id": 81,
+    "word": "arise",
+    "meaning": "ينشأ / يظهر",
+    "example": "Problems may arise if we are not careful.",
+    "exampleTranslation": "قد تنشأ مشاكل إذا لم نكن حذرين."
+  },
+  {
+    "id": 82,
+    "word": "armed",
+    "meaning": "مسلح",
+    "example": "The police arrested the armed suspect.",
+    "exampleTranslation": "اعتقلت الشرطة المشتبه به المسلح."
+  },
+  {
+    "id": 83,
+    "word": "arrange",
+    "meaning": "ينظم / يرتب",
+    "example": "They arranged a meeting for next week.",
+    "exampleTranslation": "رتبوا اجتماعًا للأسبوع المقبل."
+  },
+  {
+    "id": 84,
+    "word": "arrangement",
+    "meaning": "ترتيب / اتفاق",
+    "example": "We made an arrangement to meet at noon.",
+    "exampleTranslation": "قمنا بترتيب للقاء في الظهر."
+  },
+  {
+    "id": 85,
+    "word": "arrest",
+    "meaning": "يعتقل",
+    "example": "The police arrested the thief.",
+    "exampleTranslation": "اعتقلت الشرطة السارق."
+  },
+  {
+    "id": 86,
+    "word": "arrival",
+    "meaning": "وصول",
+    "example": "The arrival of the train was delayed.",
+    "exampleTranslation": "تأخر وصول القطار."
+  },
+  {
+    "id": 87,
+    "word": "arrive",
+    "meaning": "يصل",
+    "example": "We arrived at the airport on time.",
+    "exampleTranslation": "وصلنا إلى المطار في الوقت المحدد."
+  },
+  {
+    "id": 88,
+    "word": "article",
+    "meaning": "مقال / مادة",
+    "example": "She wrote an article for the newspaper.",
+    "exampleTranslation": "كتبت مقالًا للصحيفة."
+  },
+  {
+    "id": 89,
+    "word": "artist",
+    "meaning": "فنان",
+    "example": "The artist painted a beautiful landscape.",
+    "exampleTranslation": "رسم الفنان منظرًا طبيعيًا جميلًا."
+  },
+  {
+    "id": 90,
+    "word": "artistic",
+    "meaning": "فني / ذو ذوق فني",
+    "example": "She has artistic talents in painting.",
+    "exampleTranslation": "لديها مواهب فنية في الرسم."
+  },
+  {
+    "id": 91,
+    "word": "Asian",
+    "meaning": "آسيوي",
+    "example": "He is of Asian descent.",
+    "exampleTranslation": "هو من أصول آسيوية."
+  },
+  {
+    "id": 92,
+    "word": "aside",
+    "meaning": "جانبا / على حدة",
+    "example": "Set your personal feelings aside.",
+    "exampleTranslation": "ضع مشاعرك الشخصية جانبًا."
+  },
+  {
+    "id": 93,
+    "word": "aspect",
+    "meaning": "جانب / مظهر",
+    "example": "We need to consider every aspect of the problem.",
+    "exampleTranslation": "نحتاج إلى مراعاة كل جانب من المشكلة."
+  },
+  {
+    "id": 94,
+    "word": "assault",
+    "meaning": "اعتداء / هجوم",
+    "example": "He was charged with assault.",
+    "exampleTranslation": "وجهت له تهمة الاعتداء."
+  },
+  {
+    "id": 95,
+    "word": "assert",
+    "meaning": "يؤكد / يصرّح",
+    "example": "She asserted her innocence.",
+    "exampleTranslation": "أكدت براءتها."
+  },
+  {
+    "id": 96,
+    "word": "assess",
+    "meaning": "يقيم / يقدّر",
+    "example": "We need to assess the damage after the storm.",
+    "exampleTranslation": "نحتاج إلى تقييم الأضرار بعد العاصفة."
+  },
+  {
+    "id": 97,
+    "word": "assessment",
+    "meaning": "تقييم / تقدير",
+    "example": "The teacher made an assessment of the students.",
+    "exampleTranslation": "قام المعلم بتقييم الطلاب."
+  },
+  {
+    "id": 98,
+    "word": "asset",
+    "meaning": "أصل / ممتلكات",
+    "example": "Knowledge is a valuable asset.",
+    "exampleTranslation": "المعرفة هي أصل ثمين."
+  },
+  {
+    "id": 99,
+    "word": "assign",
+    "meaning": "يُكلف / يعيّن",
+    "example": "The teacher assigned homework to the students.",
+    "exampleTranslation": "كلّف المعلم الطلاب بالواجب المنزلي."
+  },
+  {
+    "id": 100,
+    "word": "assignment",
+    "meaning": "مهمة / واجب",
+    "example": "He completed the assignment on time.",
+    "exampleTranslation": "أكمل الواجب في الوقت المحدد."
+  },
+  {
+    "id": 101,
+    "word": "assist",
+    "meaning": "يساعد / يعاون",
+    "example": "She assisted the teacher in the classroom.",
+    "exampleTranslation": "ساعدت المعلم في الفصل."
+  },
+  {
+    "id": 102,
+    "word": "assistance",
+    "meaning": "مساعدة / دعم",
+    "example": "He provided financial assistance to the family.",
+    "exampleTranslation": "قدم دعمًا ماليًا للعائلة."
+  },
+  {
+    "id": 103,
+    "word": "assistant",
+    "meaning": "مساعد",
+    "example": "She works as an assistant in the office.",
+    "exampleTranslation": "تعمل كمساعدة في المكتب."
+  },
+  {
+    "id": 104,
+    "word": "associate",
+    "meaning": "يربط / زميل",
+    "example": "He is associated with a well-known company.",
+    "exampleTranslation": "يرتبط بشركة معروفة."
+  },
+  {
+    "id": 105,
+    "word": "association",
+    "meaning": "جمعية / رابطة",
+    "example": "She joined the teachers' association.",
+    "exampleTranslation": "انضمت إلى جمعية المعلمين."
+  },
+  {
+    "id": 106,
+    "word": "assume",
+    "meaning": "يفترض / يظن",
+    "example": "I assumed he was busy.",
+    "exampleTranslation": "افترضت أنه مشغول."
+  },
+  {
+    "id": 107,
+    "word": "assumption",
+    "meaning": "افتراض / تقدير",
+    "example": "The plan was based on several assumptions.",
+    "exampleTranslation": "استند الخطة إلى عدة افتراضات."
+  },
+  {
+    "id": 108,
+    "word": "assure",
+    "meaning": "يؤكد / يضمن",
+    "example": "I assure you that everything will be fine.",
+    "exampleTranslation": "أؤكد لك أن كل شيء سيكون على ما يرام."
+  },
+  {
+    "id": 109,
+    "word": "athlete",
+    "meaning": "رياضي",
+    "example": "She is a professional athlete.",
+    "exampleTranslation": "هي رياضية محترفة."
+  },
+  {
+    "id": 110,
+    "word": "athletic",
+    "meaning": "رياضي / قوي البنية",
+    "example": "He has an athletic build.",
+    "exampleTranslation": "لديه جسم رياضي."
+  },
+  {
+    "id": 111,
+    "word": "atmosphere",
+    "meaning": "جو / غلاف جوي",
+    "example": "The restaurant has a cozy atmosphere.",
+    "exampleTranslation": "المطعم له جو مريح."
+  },
+  {
+    "id": 112,
+    "word": "attach",
+    "meaning": "يلحق / يرفق",
+    "example": "Please attach the file to the email.",
+    "exampleTranslation": "يرجى إرفاق الملف بالبريد الإلكتروني."
+  },
+  {
+    "id": 113,
+    "word": "attempt",
+    "meaning": "يحاول / محاولة",
+    "example": "He attempted to solve the problem.",
+    "exampleTranslation": "حاول حل المشكلة."
+  },
+  {
+    "id": 114,
+    "word": "attend",
+    "meaning": "يحضر / يشارك",
+    "example": "She attended the conference last week.",
+    "exampleTranslation": "حضرت المؤتمر الأسبوع الماضي."
+  },
+  {
+    "id": 115,
+    "word": "attitude",
+    "meaning": "موقف / سلوك",
+    "example": "He has a positive attitude towards work.",
+    "exampleTranslation": "لديه موقف إيجابي تجاه العمل."
+  },
+  {
+    "id": 116,
+    "word": "attorney",
+    "meaning": "محامي",
+    "example": "He consulted an attorney for legal advice.",
+    "exampleTranslation": "استشار محاميًا للحصول على المشورة القانونية."
+  },
+  {
+    "id": 117,
+    "word": "attract",
+    "meaning": "يجذب",
+    "example": "The park attracts many tourists.",
+    "exampleTranslation": "تجذب الحديقة العديد من السياح."
+  },
+  {
+    "id": 118,
+    "word": "attractive",
+    "meaning": "جذاب / ممتع",
+    "example": "She has an attractive smile.",
+    "exampleTranslation": "لديها ابتسامة جذابة."
+  },
+  {
+    "id": 119,
+    "word": "attribute",
+    "meaning": "ينسب / صفة",
+    "example": "He attributed his success to hard work.",
+    "exampleTranslation": "نسب نجاحه إلى العمل الجاد."
+  },
+  {
+    "id": 120,
+    "word": "authority",
+    "meaning": "سلطة / نفوذ",
+    "example": "The teacher has full authority in the classroom.",
+    "exampleTranslation": "المعلم له كامل السلطة في الفصل."
+  },
+  {
+    "id": 121,
+    "word": "auto",
+    "meaning": "سيارة / آلي",
+    "example": "He bought a new auto.",
+    "exampleTranslation": "اشترى سيارة جديدة."
+  },
+  {
+    "id": 122,
+    "word": "average",
+    "meaning": "متوسط",
+    "example": "The average temperature this month is 25°C.",
+    "exampleTranslation": "درجة الحرارة المتوسطة هذا الشهر 25 درجة."
+  },
+  {
+    "id": 123,
+    "word": "award",
+    "meaning": "جائزة / يمنح",
+    "example": "She won an award for her performance.",
+    "exampleTranslation": "فازت بجائزة لأدائها."
+  },
+  {
+    "id": 124,
+    "word": "awareness",
+    "meaning": "وعي / إدراك",
+    "example": "The campaign raised awareness about pollution.",
+    "exampleTranslation": "رفعت الحملة الوعي حول التلوث."
+  },
+  {
+    "id": 125,
+    "word": "awful",
+    "meaning": "فظيع / سيء للغاية",
+    "example": "The weather today is awful.",
+    "exampleTranslation": "الطقس اليوم فظيع."
+  },
+  {
+    "id": 126,
+    "word": "bake",
+    "meaning": "يخبز",
+    "example": "She baked a cake for her friend.",
+    "exampleTranslation": "خبزت كعكة لصديقتها."
+  },
+  {
+    "id": 127,
+    "word": "ban",
+    "meaning": "يحظر / يمنع",
+    "example": "The city banned smoking in public places.",
+    "exampleTranslation": "حظرت المدينة التدخين في الأماكن العامة."
+  },
+  {
+    "id": 128,
+    "word": "band",
+    "meaning": "فرقة / شريط",
+    "example": "He plays in a rock band.",
+    "exampleTranslation": "يعزف في فرقة روك."
+  },
+  {
+    "id": 129,
+    "word": "barely",
+    "meaning": "بصعوبة / بالكاد",
+    "example": "He could barely lift the heavy box.",
+    "exampleTranslation": "كاد أن يرفع الصندوق الثقيل بصعوبة."
+  },
+  {
+    "id": 130,
+    "word": "barrel",
+    "meaning": "برميل",
+    "example": "The wine was stored in a barrel.",
+    "exampleTranslation": "تم تخزين النبيذ في برميل."
+  },
+  {
+    "id": 131,
+    "word": "barrier",
+    "meaning": "حاجز / عائق",
+    "example": "Language can be a barrier to communication.",
+    "exampleTranslation": "يمكن أن تكون اللغة عائقًا أمام التواصل."
+  },
+  {
+    "id": 132,
+    "word": "base",
+    "meaning": "قاعدة / أساس",
+    "example": "The soldiers returned to their base.",
+    "exampleTranslation": "عاد الجنود إلى قاعدتهم."
+  },
+  {
+    "id": 133,
+    "word": "basis",
+    "meaning": "أساس / قاعدة",
+    "example": "Decisions were made on a daily basis.",
+    "exampleTranslation": "تم اتخاذ القرارات على أساس يومي."
+  },
+  {
+    "id": 134,
+    "word": "bean",
+    "meaning": "فاصوليا / حبة",
+    "example": "He added beans to the salad.",
+    "exampleTranslation": "أضاف الفاصوليا إلى السلطة."
+  },
+  {
+    "id": 135,
+    "word": "bear",
+    "meaning": "يتحمل / دب",
+    "example": "I cannot bear this noise.",
+    "exampleTranslation": "لا أستطيع تحمل هذا الضجيج."
+  },
+  {
+    "id": 136,
+    "word": "beat",
+    "meaning": "يضرب / يغلب",
+    "example": "He beat the drum loudly.",
+    "exampleTranslation": "ضرب الطبل بصوت عالٍ."
+  },
+  {
+    "id": 137,
+    "word": "beer",
+    "meaning": "بيرة",
+    "example": "He drank a cold beer after work.",
+    "exampleTranslation": "شرب بيرة باردة بعد العمل."
+  },
+  {
+    "id": 138,
+    "word": "being",
+    "meaning": "وجود / كائن",
+    "example": "All human beings deserve respect.",
+    "exampleTranslation": "جميع البشر يستحقون الاحترام."
+  },
+  {
+    "id": 139,
+    "word": "behavior",
+    "meaning": "سلوك / تصرف",
+    "example": "His behavior was very polite.",
+    "exampleTranslation": "كان سلوكه مهذبًا جدًا."
+  },
+  {
+    "id": 140,
+    "word": "bell",
+    "meaning": "جرس",
+    "example": "The school bell rang at 8 a.m.",
+    "exampleTranslation": "رن جرس المدرسة الساعة 8 صباحًا."
+  },
+  {
+    "id": 141,
+    "word": "belt",
+    "meaning": "حزام",
+    "example": "He wore a leather belt.",
+    "exampleTranslation": "ارتدى حزامًا من الجلد."
+  },
+  {
+    "id": 142,
+    "word": "bench",
+    "meaning": "مقعد / مقعد طويل",
+    "example": "They sat on a bench in the park.",
+    "exampleTranslation": "جلسوا على مقعد في الحديقة."
+  },
+  {
+    "id": 143,
+    "word": "bend",
+    "meaning": "ينحني / يثني",
+    "example": "He bent down to pick up the coin.",
+    "exampleTranslation": "انحنى ليلتقط العملة."
+  },
+  {
+    "id": 144,
+    "word": "beneath",
+    "meaning": "تحت / أسفل",
+    "example": "The river flows beneath the bridge.",
+    "exampleTranslation": "يتدفق النهر تحت الجسر."
+  },
+  {
+    "id": 145,
+    "word": "benefit",
+    "meaning": "فائدة / يستفيد",
+    "example": "Exercise has many health benefits.",
+    "exampleTranslation": "للتمارين الرياضية فوائد صحية كثيرة."
+  },
+  {
+    "id": 146,
+    "word": "beside",
+    "meaning": "بجانب",
+    "example": "She sat beside me during the movie.",
+    "exampleTranslation": "جلست بجانبي أثناء الفيلم."
+  },
+  {
+    "id": 147,
+    "word": "besides",
+    "meaning": "بالإضافة إلى / علاوة على ذلك",
+    "example": "Besides English, she speaks French.",
+    "exampleTranslation": "بالإضافة إلى الإنجليزية، تتحدث الفرنسية."
+  },
+  {
+    "id": 148,
+    "word": "bet",
+    "meaning": "يراهن / رهان",
+    "example": "He bet $50 on the game.",
+    "exampleTranslation": "راهن بمبلغ 50 دولارًا على المباراة."
+  },
+  {
+    "id": 149,
+    "word": "bike",
+    "meaning": "دراجة",
+    "example": "He rides his bike to work every day.",
+    "exampleTranslation": "يركب دراجته إلى العمل كل يوم."
+  },
+  {
+    "id": 150,
+    "word": "bill",
+    "meaning": "فاتورة / مشروع قانون",
+    "example": "The restaurant sent me the bill.",
+    "exampleTranslation": "أرسل لي المطعم الفاتورة."
+  },
+  {
+    "id": 151,
+    "word": "bind",
+    "meaning": "يربط / يقيد",
+    "example": "The contract binds both parties.",
+    "exampleTranslation": "العقد يلزم الطرفين."
+  },
+  {
+    "id": 152,
+    "word": "biological",
+    "meaning": "بيولوجي / طبيعي",
+    "example": "She is studying biological sciences.",
+    "exampleTranslation": "تدرس العلوم البيولوجية."
+  },
+  {
+    "id": 153,
+    "word": "bit",
+    "meaning": "قليل / جزء",
+    "example": "Add a bit of salt to the recipe.",
+    "exampleTranslation": "أضف القليل من الملح إلى الوصفة."
+  },
+  {
+    "id": 154,
+    "word": "bite",
+    "meaning": "يعض / قضمة",
+    "example": "The dog bit him on the hand.",
+    "exampleTranslation": "عضه الكلب في يده."
+  },
+  {
+    "id": 155,
+    "word": "blade",
+    "meaning": "شفرة / شفره سكين",
+    "example": "The knife has a sharp blade.",
+    "exampleTranslation": "السكين لها شفرة حادة."
+  },
+  {
+    "id": 156,
+    "word": "blanket",
+    "meaning": "بطانية / يغطي",
+    "example": "He wrapped himself in a warm blanket.",
+    "exampleTranslation": "لف نفسه ببطانية دافئة."
+  },
+  {
+    "id": 157,
+    "word": "blind",
+    "meaning": "أعمى / حاجب للضوء",
+    "example": "He has been blind since birth.",
+    "exampleTranslation": "هو أعمى منذ الولادة."
+  },
+  {
+    "id": 158,
+    "word": "block",
+    "meaning": "كتلة / يمنع",
+    "example": "The road was blocked due to an accident.",
+    "exampleTranslation": "تم إغلاق الطريق بسبب حادث."
+  },
+  {
+    "id": 159,
+    "word": "board",
+    "meaning": "لوح / مجلس",
+    "example": "They are on board the ship.",
+    "exampleTranslation": "هم على متن السفينة."
+  },
+  {
+    "id": 160,
+    "word": "boat",
+    "meaning": "قارب",
+    "example": "They went fishing on a small boat.",
+    "exampleTranslation": "ذهبوا للصيد على قارب صغير."
+  },
+    {
+    "id": 161,
+    "word": "bomb",
+    "meaning": "قنبلة",
+    "example": "The city was attacked with a bomb.",
+    "exampleTranslation": "تعرضت المدينة لهجوم بقنبلة."
+  },
+  {
+    "id": 162,
+    "word": "bond",
+    "meaning": "رابط / سند",
+    "example": "There is a strong bond between mother and child.",
+    "exampleTranslation": "هناك رابط قوي بين الأم والطفل."
+  },
+  {
+    "id": 163,
+    "word": "bone",
+    "meaning": "عظم",
+    "example": "He broke a bone in his arm.",
+    "exampleTranslation": "كسر عظمة في ذراعه."
+  },
+  {
+    "id": 164,
+    "word": "boom",
+    "meaning": "ازدهار / ارتفاع مفاجئ",
+    "example": "The economy is experiencing a boom.",
+    "exampleTranslation": "تشهد الاقتصاد طفرة."
+  },
+  {
+    "id": 165,
+    "word": "boot",
+    "meaning": "حذاء طويل / يقلع",
+    "example": "He bought new leather boots.",
+    "exampleTranslation": "اشترى حذاءًا طويلًا من الجلد."
+  },
+  {
+    "id": 166,
+    "word": "border",
+    "meaning": "حدود / يحد",
+    "example": "The river forms the border between the two countries.",
+    "exampleTranslation": "يشكل النهر الحدود بين البلدين."
+  },
+  {
+    "id": 167,
+    "word": "born",
+    "meaning": "مولود / وُلد",
+    "example": "He was born in 1990.",
+    "exampleTranslation": "وُلد في عام 1990."
+  },
+  {
+    "id": 168,
+    "word": "borrow",
+    "meaning": "يستعير",
+    "example": "Can I borrow your pen?",
+    "exampleTranslation": "هل يمكنني استعارة قلمك؟"
+  },
+  {
+    "id": 169,
+    "word": "bottle",
+    "meaning": "زجاجة",
+    "example": "He drank a bottle of water.",
+    "exampleTranslation": "شرب زجاجة ماء."
+  },
+  {
+    "id": 170,
+    "word": "boundary",
+    "meaning": "حد / حدود",
+    "example": "The fence marks the boundary of the property.",
+    "exampleTranslation": "يحدد السياج حدود الملكية."
+  },
+  {
+    "id": 171,
+    "word": "bowl",
+    "meaning": "وعاء / زبدية",
+    "example": "He ate cereal from a bowl.",
+    "exampleTranslation": "أكل الحبوب من وعاء."
+  },
+  {
+    "id": 172,
+    "word": "brand",
+    "meaning": "ماركة / علامة تجارية",
+    "example": "This brand is very popular.",
+    "exampleTranslation": "هذه الماركة شائعة جدًا."
+  },
+  {
+    "id": 173,
+    "word": "bread",
+    "meaning": "خبز",
+    "example": "She bought fresh bread from the bakery.",
+    "exampleTranslation": "اشترت خبزًا طازجًا من المخبز."
+  },
+  {
+    "id": 174,
+    "word": "break",
+    "meaning": "يكسر / استراحة",
+    "example": "Be careful not to break the glass.",
+    "exampleTranslation": "كن حذرًا ألا تكسر الزجاج."
+  },
+  {
+    "id": 175,
+    "word": "breast",
+    "meaning": "صدر",
+    "example": "The baby was feeding on his mother's breast.",
+    "exampleTranslation": "كان الطفل يرضع من صدر أمه."
+  },
+  {
+    "id": 176,
+    "word": "breath",
+    "meaning": "نَفَس",
+    "example": "Take a deep breath and relax.",
+    "exampleTranslation": "خذ نفسًا عميقًا واسترخِ."
+  },
+  {
+    "id": 177,
+    "word": "breathe",
+    "meaning": "يتنفس",
+    "example": "It is hard to breathe at high altitudes.",
+    "exampleTranslation": "من الصعب التنفس على ارتفاعات عالية."
+  },
+  {
+    "id": 178,
+    "word": "brick",
+    "meaning": "قِرميد / لبنة",
+    "example": "The house is made of bricks.",
+    "exampleTranslation": "المنزل مصنوع من الطوب."
+  },
+  {
+    "id": 179,
+    "word": "bridge",
+    "meaning": "جسر",
+    "example": "The bridge connects the two cities.",
+    "exampleTranslation": "الجسر يربط بين المدينتين."
+  },
+  {
+    "id": 180,
+    "word": "brief",
+    "meaning": "قصير / موجز",
+    "example": "He gave a brief explanation.",
+    "exampleTranslation": "قدم شرحًا موجزًا."
+  },
+  {
+    "id": 181,
+    "word": "briefly",
+    "meaning": "باختصار / لفترة قصيرة",
+    "example": "She spoke briefly at the meeting.",
+    "exampleTranslation": "تحدثت باختصار في الاجتماع."
+  },
+  {
+    "id": 182,
+    "word": "bright",
+    "meaning": "مشرق / ذكي",
+    "example": "The sun is bright today.",
+    "exampleTranslation": "الشمس مشرقة اليوم."
+  },
+  {
+    "id": 183,
+    "word": "broad",
+    "meaning": "عريض / واسع",
+    "example": "The river is very broad here.",
+    "exampleTranslation": "النهر واسع جدًا هنا."
+  },
+  {
+    "id": 184,
+    "word": "brush",
+    "meaning": "فرشاة / يمسح",
+    "example": "He brushed his teeth before bed.",
+    "exampleTranslation": "فرش أسنانه قبل النوم."
+  },
+  {
+    "id": 185,
+    "word": "budget",
+    "meaning": "ميزانية",
+    "example": "We need to prepare the annual budget.",
+    "exampleTranslation": "نحتاج لإعداد الميزانية السنوية."
+  },
+  {
+    "id": 186,
+    "word": "bullet",
+    "meaning": "رصاصة",
+    "example": "The bullet hit the target.",
+    "exampleTranslation": "اصطدمت الرصاصة بالهدف."
+  },
+  {
+    "id": 187,
+    "word": "bunch",
+    "meaning": "حزمة / مجموعة",
+    "example": "He bought a bunch of bananas.",
+    "exampleTranslation": "اشترى مجموعة من الموز."
+  },
+  {
+    "id": 188,
+    "word": "burden",
+    "meaning": "عبء / حمل ثقيل",
+    "example": "The responsibility was a heavy burden.",
+    "exampleTranslation": "كانت المسؤولية عبئًا ثقيلًا."
+  },
+  {
+    "id": 189,
+    "word": "bury",
+    "meaning": "يدفن",
+    "example": "They buried the treasure in the garden.",
+    "exampleTranslation": "دفنوا الكنز في الحديقة."
+  },
+  {
+    "id": 190,
+    "word": "buyer",
+    "meaning": "مشتري",
+    "example": "The buyer agreed to pay the price.",
+    "exampleTranslation": "وافق المشتري على دفع الثمن."
+  },
+  {
+    "id": 191,
+    "word": "cabin",
+    "meaning": "كوخ / مقصورة",
+    "example": "We stayed in a cabin near the lake.",
+    "exampleTranslation": "أقمنا في كوخ بالقرب من البحيرة."
+  },
+  {
+    "id": 192,
+    "word": "cabinet",
+    "meaning": "خزانة / مجلس وزراء",
+    "example": "He opened the cabinet to get a book.",
+    "exampleTranslation": "فتح الخزانة للحصول على كتاب."
+  },
+  {
+    "id": 193,
+    "word": "cable",
+    "meaning": "كابل / سلك",
+    "example": "The TV is connected by a cable.",
+    "exampleTranslation": "التلفاز متصل بكابل."
+  },
+  {
+    "id": 194,
+    "word": "camp",
+    "meaning": "معسكر / يخيم",
+    "example": "They set up a camp in the forest.",
+    "exampleTranslation": "أقاموا معسكرًا في الغابة."
+  },
+  {
+    "id": 195,
+    "word": "campaign",
+    "meaning": "حملة / حملة دعائية",
+    "example": "The company launched a new advertising campaign.",
+    "exampleTranslation": "أطلقت الشركة حملة إعلانية جديدة."
+  },
+  {
+    "id": 196,
+    "word": "campus",
+    "meaning": "حرم جامعي",
+    "example": "The university campus is very large.",
+    "exampleTranslation": "الحرم الجامعي للجامعة كبير جدًا."
+  },
+  {
+    "id": 197,
+    "word": "candidate",
+    "meaning": "مرشح",
+    "example": "She is a candidate for the election.",
+    "exampleTranslation": "هي مرشحة للانتخابات."
+  },
+  {
+    "id": 198,
+    "word": "capability",
+    "meaning": "قدرة / كفاءة",
+    "example": "He has the capability to lead the team.",
+    "exampleTranslation": "لديه القدرة على قيادة الفريق."
+  },
+  {
+    "id": 199,
+    "word": "capable",
+    "meaning": "قادر / مؤهل",
+    "example": "She is capable of handling the project.",
+    "exampleTranslation": "هي قادرة على إدارة المشروع."
+  },
+  {
+    "id": 200,
+    "word": "capacity",
+    "meaning": "سعة / قدرة",
+    "example": "The stadium has a seating capacity of 50,000.",
+    "exampleTranslation": "الاستاد يتسع لـ 50,000 شخص."
+  },
+  {
+    "id": 201,
+    "word": "career",
+    "meaning": "مهنة / مسار مهني",
+    "example": "She is building a successful career in medicine.",
+    "exampleTranslation": "إنها تبني مسارًا مهنيًا ناجحًا في مجال الطب."
+  },
+  {
+    "id": 202,
+    "word": "carrier",
+    "meaning": "ناقل / شركة نقل",
+    "example": "The airline is a major international carrier.",
+    "exampleTranslation": "شركة الطيران هي ناقل دولي رئيسي."
+  },
+  {
+    "id": 203,
+    "word": "carry",
+    "meaning": "يحمل / ينقل",
+    "example": "He carried the bag to the car.",
+    "exampleTranslation": "حمل الحقيبة إلى السيارة."
+  },
+  {
+    "id": 204,
+    "word": "cast",
+    "meaning": "يلقي / يعين الممثلين",
+    "example": "They cast her in the leading role.",
+    "exampleTranslation": "عينوها في الدور الرئيسي."
+  },
+  {
+    "id": 205,
+    "word": "cause",
+    "meaning": "سبب / يتسبب في",
+    "example": "Smoking can cause serious health problems.",
+    "exampleTranslation": "التدخين يمكن أن يتسبب في مشاكل صحية خطيرة."
+  },
+  {
+    "id": 206,
+    "word": "ceiling",
+    "meaning": "سقف",
+    "example": "The room has a high ceiling.",
+    "exampleTranslation": "الغرفة لها سقف مرتفع."
+  },
+  {
+    "id": 207,
+    "word": "celebrity",
+    "meaning": "مشهور / شخصية معروفة",
+    "example": "The celebrity attended the charity event.",
+    "exampleTranslation": "حضر المشهور الحدث الخيري."
+  },
+  {
+    "id": 208,
+    "word": "central",
+    "meaning": "مركزي / رئيسي",
+    "example": "The central issue is the lack of funding.",
+    "exampleTranslation": "القضية الرئيسية هي نقص التمويل."
+  },
+  {
+    "id": 209,
+    "word": "CEO",
+    "meaning": "الرئيس التنفيذي",
+    "example": "The CEO of the company announced a new plan.",
+    "exampleTranslation": "أعلن الرئيس التنفيذي للشركة عن خطة جديدة."
+  },
+  {
+    "id": 210,
+    "word": "ceremony",
+    "meaning": "حفل / مراسم",
+    "example": "The graduation ceremony was held outdoors.",
+    "exampleTranslation": "أقيم حفل التخرج في الهواء الطلق."
+  },
+  {
+    "id": 211,
+    "word": "certain",
+    "meaning": "مؤكد / معين",
+    "example": "I am certain about my decision.",
+    "exampleTranslation": "أنا متأكد من قراري."
+  },
+  {
+    "id": 212,
+    "word": "certainly",
+    "meaning": "بالتأكيد",
+    "example": "You can certainly rely on him.",
+    "exampleTranslation": "يمكنك الاعتماد عليه بالتأكيد."
+  },
+  {
+    "id": 213,
+    "word": "chain",
+    "meaning": "سلسلة / سلسلة متاجر",
+    "example": "He bought a gold chain.",
+    "exampleTranslation": "اشترى سلسلة ذهبية."
+  },
+  {
+    "id": 214,
+    "word": "chamber",
+    "meaning": "غرفة / حجرة",
+    "example": "The king entered the royal chamber.",
+    "exampleTranslation": "دخل الملك الغرفة الملكية."
+  },
+  {
+    "id": 215,
+    "word": "characteristic",
+    "meaning": "سمة / خاصية",
+    "example": "Honesty is an important characteristic.",
+    "exampleTranslation": "الصدق سمة مهمة."
+  },
+  {
+    "id": 216,
+    "word": "characterize",
+    "meaning": "يصف / يميز",
+    "example": "The novel characterizes life in the city.",
+    "exampleTranslation": "تصف الرواية الحياة في المدينة."
+  },
+  {
+    "id": 217,
+    "word": "charge",
+    "meaning": "يتهم / يفرض رسوم",
+    "example": "The bank will charge a fee for late payment.",
+    "exampleTranslation": "سيفرض البنك رسومًا على التأخير في الدفع."
+  },
+  {
+    "id": 218,
+    "word": "chart",
+    "meaning": "رسم بياني / جدول",
+    "example": "The chart shows the company's growth.",
+    "exampleTranslation": "يوضح الرسم البياني نمو الشركة."
+  },
+  {
+    "id": 219,
+    "word": "chest",
+    "meaning": "صدر / صندوق",
+    "example": "He has a tattoo on his chest.",
+    "exampleTranslation": "لديه وشم على صدره."
+  },
+  {
+    "id": 220,
+    "word": "chief",
+    "meaning": "رئيس / قائد",
+    "example": "The chief of police gave a statement.",
+    "exampleTranslation": "أدلى رئيس الشرطة ببيان."
+  },
+  {
+    "id": 221,
+    "word": "chip",
+    "meaning": "شريحة / قطعة صغيرة",
+    "example": "He ate a chip from the bag.",
+    "exampleTranslation": "أكل قطعة من الكيس."
+  },
+  {
+    "id": 222,
+    "word": "church",
+    "meaning": "كنيسة",
+    "example": "They went to church on Sunday.",
+    "exampleTranslation": "ذهبوا إلى الكنيسة يوم الأحد."
+  },
+  {
+    "id": 223,
+    "word": "cite",
+    "meaning": "يستشهد / يذكر",
+    "example": "The lawyer cited several cases in court.",
+    "exampleTranslation": "استشهد المحامي بعدة قضايا في المحكمة."
+  },
+  {
+    "id": 224,
+    "word": "civil",
+    "meaning": "مدني",
+    "example": "Civil law governs non-criminal disputes.",
+    "exampleTranslation": "القانون المدني يحكم النزاعات غير الجنائية."
+  },
+  {
+    "id": 225,
+    "word": "civilian",
+    "meaning": "مدني / شخص عادي",
+    "example": "The army must protect civilians.",
+    "exampleTranslation": "يجب على الجيش حماية المدنيين."
+  },
+  {
+    "id": 226,
+    "word": "claim",
+    "meaning": "يدعي / مطالبة",
+    "example": "He claimed he was innocent.",
+    "exampleTranslation": "ادعى أنه بريء."
+  },
+  {
+    "id": 227,
+    "word": "clearly",
+    "meaning": "بوضوح / بجلاء",
+    "example": "She spoke clearly during the presentation.",
+    "exampleTranslation": "تحدثت بوضوح خلال العرض."
+  },
+  {
+    "id": 228,
+    "word": "climate",
+    "meaning": "مناخ / جو",
+    "example": "The climate in the desert is very dry.",
+    "exampleTranslation": "المناخ في الصحراء جاف جدًا."
+  },
+  {
+    "id": 229,
+    "word": "climb",
+    "meaning": "يتسلق / صعود",
+    "example": "They climbed the mountain in two days.",
+    "exampleTranslation": "تسلقوا الجبل في يومين."
+  },
+  {
+    "id": 230,
+    "word": "clinic",
+    "meaning": "عيادة",
+    "example": "He went to the clinic for a check-up.",
+    "exampleTranslation": "ذهب إلى العيادة لإجراء فحص."
+  },
+  {
+    "id": 231,
+    "word": "clinical",
+    "meaning": "سريري",
+    "example": "The hospital provides clinical training.",
+    "exampleTranslation": "يوفر المستشفى تدريبًا سريريًا."
+  },
+  {
+    "id": 232,
+    "word": "closer",
+    "meaning": "أقرب / أقرب من",
+    "example": "The shop is closer than the supermarket.",
+    "exampleTranslation": "المتجر أقرب من السوبرماركت."
+  },
+  {
+    "id": 233,
+    "word": "clothing",
+    "meaning": "ملابس",
+    "example": "He bought new clothing for the party.",
+    "exampleTranslation": "اشترى ملابس جديدة للحفلة."
+  },
+  {
+    "id": 234,
+    "word": "clue",
+    "meaning": "دليل / فكرة",
+    "example": "The detective found an important clue.",
+    "exampleTranslation": "وجد المحقق دليلًا مهمًا."
+  },
+  {
+    "id": 235,
+    "word": "cluster",
+    "meaning": "عنقود / مجموعة",
+    "example": "A cluster of stars can be seen in the sky.",
+    "exampleTranslation": "يمكن رؤية عنقود من النجوم في السماء."
+  },
+  {
+    "id": 236,
+    "word": "coach",
+    "meaning": "مدرب / حافلة",
+    "example": "The coach trained the team daily.",
+    "exampleTranslation": "درّب المدرب الفريق يوميًا."
+  },
+  {
+    "id": 237,
+    "word": "coalition",
+    "meaning": "تحالف / ائتلاف",
+    "example": "The two parties formed a coalition government.",
+    "exampleTranslation": "شكل الحزبان حكومة ائتلافية."
+  },
+  {
+    "id": 238,
+    "word": "coast",
+    "meaning": "ساحل / ينجرف",
+    "example": "They walked along the coast.",
+    "exampleTranslation": "مشوا على طول الساحل."
+  },
+  {
+    "id": 239,
+    "word": "coat",
+    "meaning": "معطف",
+    "example": "He wore a warm coat in winter.",
+    "exampleTranslation": "ارتدى معطفًا دافئًا في الشتاء."
+  },
+  {
+    "id": 240,
+    "word": "code",
+    "meaning": "رمز / شيفرة",
+    "example": "The software uses a secret code.",
+    "exampleTranslation": "يستخدم البرنامج شيفرة سرية."
+  },
+  {
+    "id": 241,
+    "word": "cognitive",
+    "meaning": "معرفي / ذهني",
+    "example": "Cognitive skills are essential for problem-solving.",
+    "exampleTranslation": "المهارات المعرفية ضرورية لحل المشكلات."
+  },
+  {
+    "id": 242,
+    "word": "collapse",
+    "meaning": "ينهار / انهيار",
+    "example": "The building collapsed after the earthquake.",
+    "exampleTranslation": "انهار المبنى بعد الزلزال."
+  },
+  {
+    "id": 243,
+    "word": "collective",
+    "meaning": "جماعي / مشترك",
+    "example": "The team made a collective decision.",
+    "exampleTranslation": "اتخذ الفريق قرارًا جماعيًا."
+  },
+  {
+    "id": 244,
+    "word": "colonial",
+    "meaning": "استعماري",
+    "example": "The city has many colonial buildings.",
+    "exampleTranslation": "تحتوي المدينة على العديد من المباني الاستعمارية."
+  },
+  {
+    "id": 245,
+    "word": "combination",
+    "meaning": "مزيج / تركيبة",
+    "example": "The combination of flavors is amazing.",
+    "exampleTranslation": "مزيج النكهات مذهل."
+  },
+  {
+    "id": 246,
+    "word": "combine",
+    "meaning": "يجمع / يدمج",
+    "example": "Combine the ingredients in a bowl.",
+    "exampleTranslation": "ادمج المكونات في وعاء."
+  },
+  {
+    "id": 247,
+    "word": "commercial",
+    "meaning": "تجاري / إعلان",
+    "example": "The company aired a new commercial.",
+    "exampleTranslation": "عرضت الشركة إعلانًا جديدًا."
+  },
+  {
+    "id": 248,
+    "word": "commission",
+    "meaning": "لجنة / عمولة",
+    "example": "He received a commission for his sales.",
+    "exampleTranslation": "تلقى عمولة مقابل مبيعاته."
+  },
+  {
+    "id": 249,
+    "word": "commit",
+    "meaning": "يلتزم / يرتكب",
+    "example": "She committed to finishing the project on time.",
+    "exampleTranslation": "التزمت بإكمال المشروع في الوقت المحدد."
+  },
+  {
+    "id": 250,
+    "word": "commitment",
+    "meaning": "التزام",
+    "example": "His commitment to work is admirable.",
+    "exampleTranslation": "التزامه بالعمل يستحق الإعجاب."
+  },
+    {
+    "id": 251,
+    "word": "committee",
+    "meaning": "لجنة",
+    "example": "The committee will meet next week to discuss the issue.",
+    "exampleTranslation": "ستجتمع اللجنة الأسبوع المقبل لمناقشة القضية."
+  },
+  {
+    "id": 252,
+    "word": "communicate",
+    "meaning": "يتواصل / يبلّغ",
+    "example": "It is important to communicate clearly with your team.",
+    "exampleTranslation": "من المهم التواصل بوضوح مع فريقك."
+  },
+  {
+    "id": 253,
+    "word": "communication",
+    "meaning": "اتصال / تواصل",
+    "example": "Good communication is key in any relationship.",
+    "exampleTranslation": "التواصل الجيد هو المفتاح في أي علاقة."
+  },
+  {
+    "id": 254,
+    "word": "comparison",
+    "meaning": "مقارنة",
+    "example": "The comparison between the two products is clear.",
+    "exampleTranslation": "المقارنة بين المنتجين واضحة."
+  },
+  {
+    "id": 255,
+    "word": "compete",
+    "meaning": "يتنافس",
+    "example": "Several companies compete in the same market.",
+    "exampleTranslation": "تتنافس عدة شركات في نفس السوق."
+  },
+  {
+    "id": 256,
+    "word": "competition",
+    "meaning": "مسابقة / منافسة",
+    "example": "The competition was very tough this year.",
+    "exampleTranslation": "كانت المنافسة شديدة هذا العام."
+  },
+  {
+    "id": 257,
+    "word": "competitive",
+    "meaning": "تنافسي",
+    "example": "She is highly competitive in sports.",
+    "exampleTranslation": "هي تنافسية جدًا في الرياضة."
+  },
+  {
+    "id": 258,
+    "word": "competitor",
+    "meaning": "منافس",
+    "example": "Our main competitor launched a new product.",
+    "exampleTranslation": "أطلق منافسنا الرئيسي منتجًا جديدًا."
+  },
+  {
+    "id": 259,
+    "word": "complain",
+    "meaning": "يشكو / يشتكي",
+    "example": "Customers often complain about late delivery.",
+    "exampleTranslation": "يشكو العملاء غالبًا من التأخير في التسليم."
+  },
+  {
+    "id": 260,
+    "word": "complaint",
+    "meaning": "شكوى",
+    "example": "The hotel received a complaint about the noise.",
+    "exampleTranslation": "تلقت الفندق شكوى بشأن الضوضاء."
+  },
+  {
+    "id": 261,
+    "word": "complicated",
+    "meaning": "معقد",
+    "example": "The instructions were too complicated to follow.",
+    "exampleTranslation": "كانت التعليمات معقدة جدًا للمتابعة."
+  },
+  {
+    "id": 262,
+    "word": "component",
+    "meaning": "مكون / عنصر",
+    "example": "Each component of the machine must be tested.",
+    "exampleTranslation": "يجب اختبار كل مكون من مكونات الجهاز."
+  },
+  {
+    "id": 263,
+    "word": "compose",
+    "meaning": "يؤلف / يكتب",
+    "example": "He composed a beautiful piece of music.",
+    "exampleTranslation": "ألّف قطعة موسيقية جميلة."
+  },
+  {
+    "id": 264,
+    "word": "composition",
+    "meaning": "تركيب / مؤلف",
+    "example": "The composition of the team is very balanced.",
+    "exampleTranslation": "تركيب الفريق متوازن جدًا."
+  },
+  {
+    "id": 265,
+    "word": "comprehensive",
+    "meaning": "شامل / كامل",
+    "example": "The report provides a comprehensive analysis.",
+    "exampleTranslation": "يقدم التقرير تحليلاً شاملاً."
+  },
+  {
+    "id": 266,
+    "word": "computer",
+    "meaning": "حاسوب / كمبيوتر",
+    "example": "I use my computer to work from home.",
+    "exampleTranslation": "أستخدم الكمبيوتر للعمل من المنزل."
+  },
+  {
+    "id": 267,
+    "word": "concentrate",
+    "meaning": "يركز / يركز ذهنياً",
+    "example": "It’s hard to concentrate with so much noise.",
+    "exampleTranslation": "من الصعب التركيز مع كل هذا الضجيج."
+  },
+  {
+    "id": 268,
+    "word": "concentration",
+    "meaning": "تركيز",
+    "example": "Her concentration improved after meditation.",
+    "exampleTranslation": "تحسن تركيزها بعد التأمل."
+  },
+  {
+    "id": 269,
+    "word": "concerned",
+    "meaning": "مهتم / قلق",
+    "example": "I am concerned about the project deadline.",
+    "exampleTranslation": "أنا قلق بشأن الموعد النهائي للمشروع."
+  },
+  {
+    "id": 270,
+    "word": "concert",
+    "meaning": "حفل موسيقي",
+    "example": "We attended a live concert last night.",
+    "exampleTranslation": "حضرنا حفلاً موسيقيًا مباشرًا الليلة الماضية."
+  },
+  {
+    "id": 271,
+    "word": "conclude",
+    "meaning": "يستنتج / يختتم",
+    "example": "We can conclude that the experiment was successful.",
+    "exampleTranslation": "يمكننا استنتاج أن التجربة كانت ناجحة."
+  },
+  {
+    "id": 272,
+    "word": "conclusion",
+    "meaning": "استنتاج",
+    "example": "The report ends with a strong conclusion.",
+    "exampleTranslation": "ينتهي التقرير باستنتاج قوي."
+  },
+  {
+    "id": 273,
+    "word": "concrete",
+    "meaning": "خرساني / ملموس",
+    "example": "They poured concrete for the new road.",
+    "exampleTranslation": "سكبوا الخرسانة للطريق الجديد."
+  },
+  {
+    "id": 274,
+    "word": "condition",
+    "meaning": "حالة / ظرف",
+    "example": "The car is in excellent condition.",
+    "exampleTranslation": "السيارة في حالة ممتازة."
+  },
+  {
+    "id": 275,
+    "word": "conduct",
+    "meaning": "يجري / يدير",
+    "example": "The scientist conducted an important experiment.",
+    "exampleTranslation": "أجرى العالم تجربة مهمة."
+  },
+  {
+    "id": 276,
+    "word": "conference",
+    "meaning": "مؤتمر",
+    "example": "The conference will be held in New York.",
+    "exampleTranslation": "سيُعقد المؤتمر في نيويورك."
+  },
+  {
+    "id": 277,
+    "word": "confidence",
+    "meaning": "ثقة",
+    "example": "She has a lot of confidence in her abilities.",
+    "exampleTranslation": "لديها الكثير من الثقة في قدراتها."
+  },
+  {
+    "id": 278,
+    "word": "confident",
+    "meaning": "واثق / مطمئن",
+    "example": "He felt confident about the presentation.",
+    "exampleTranslation": "شعر بالثقة بشأن العرض."
+  },
+  {
+    "id": 279,
+    "word": "confirm",
+    "meaning": "يؤكد / يثبت",
+    "example": "Please confirm your attendance by email.",
+    "exampleTranslation": "يرجى تأكيد حضورك عبر البريد الإلكتروني."
+  },
+  {
+    "id": 280,
+    "word": "conflict",
+    "meaning": "صراع / نزاع",
+    "example": "The conflict between the two countries lasted years.",
+    "exampleTranslation": "استمر الصراع بين البلدين لسنوات."
+  },
+  {
+    "id": 281,
+    "word": "confront",
+    "meaning": "يواجه / يواجه مباشرة",
+    "example": "She confronted him about the mistake.",
+    "exampleTranslation": "واجهته بشأن الخطأ."
+  },
+  {
+    "id": 282,
+    "word": "confusion",
+    "meaning": "ارتباك / خلط",
+    "example": "There was a lot of confusion during the event.",
+    "exampleTranslation": "كان هناك الكثير من الارتباك خلال الحدث."
+  },
+  {
+    "id": 283,
+    "word": "Congress",
+    "meaning": "الكونغرس",
+    "example": "The law was passed by Congress.",
+    "exampleTranslation": "تم تمرير القانون من قبل الكونغرس."
+  },
+  {
+    "id": 284,
+    "word": "congressional",
+    "meaning": "خاص بالكونغرس",
+    "example": "The congressional committee held a meeting.",
+    "exampleTranslation": "عقدت لجنة الكونغرس اجتماعًا."
+  },
+  {
+    "id": 285,
+    "word": "consciousness",
+    "meaning": "وعي / إدراك",
+    "example": "Meditation can improve consciousness.",
+    "exampleTranslation": "يمكن للتأمل تحسين الوعي."
+  },
+  {
+    "id": 286,
+    "word": "consensus",
+    "meaning": "إجماع",
+    "example": "The group reached a consensus after discussion.",
+    "exampleTranslation": "توصلت المجموعة إلى إجماع بعد المناقشة."
+  },
+  {
+    "id": 287,
+    "word": "consequence",
+    "meaning": "نتيجة / عاقبة",
+    "example": "Every action has a consequence.",
+    "exampleTranslation": "لكل فعل نتيجة."
+  },
+  {
+    "id": 288,
+    "word": "conservative",
+    "meaning": "محافظ",
+    "example": "He has conservative political views.",
+    "exampleTranslation": "لديه آراء سياسية محافظة."
+  },
+  {
+    "id": 289,
+    "word": "considerable",
+    "meaning": "كبير / مهم",
+    "example": "She made a considerable effort to succeed.",
+    "exampleTranslation": "بذلت جهدًا كبيرًا للنجاح."
+  },
+  {
+    "id": 290,
+    "word": "consideration",
+    "meaning": "اعتبار / تفكير",
+    "example": "After careful consideration, he accepted the offer.",
+    "exampleTranslation": "بعد التفكير الدقيق، قبل العرض."
+  },
+  {
+    "id": 291,
+    "word": "consist",
+    "meaning": "يتكون من",
+    "example": "The team consists of ten members.",
+    "exampleTranslation": "يتكون الفريق من عشرة أعضاء."
+  },
+  {
+    "id": 292,
+    "word": "consistent",
+    "meaning": "متسق / ثابت",
+    "example": "Her work is consistent in quality.",
+    "exampleTranslation": "عملها ثابت في الجودة."
+  },
+  {
+    "id": 293,
+    "word": "constant",
+    "meaning": "ثابت / مستمر",
+    "example": "He is in constant contact with his family.",
+    "exampleTranslation": "هو على اتصال دائم مع عائلته."
+  },
+  {
+    "id": 294,
+    "word": "constantly",
+    "meaning": "باستمرار",
+    "example": "She is constantly improving her skills.",
+    "exampleTranslation": "هي تحسن مهاراتها باستمرار."
+  },
+  {
+    "id": 295,
+    "word": "constitute",
+    "meaning": "يشكل / يتألف من",
+    "example": "These chapters constitute the first part of the book.",
+    "exampleTranslation": "تشكل هذه الفصول الجزء الأول من الكتاب."
+  },
+  {
+    "id": 296,
+    "word": "constitutional",
+    "meaning": "دستوري",
+    "example": "The government must follow constitutional law.",
+    "exampleTranslation": "يجب على الحكومة اتباع القانون الدستوري."
+  },
+  {
+    "id": 297,
+    "word": "construct",
+    "meaning": "يبني / ينشئ",
+    "example": "They plan to construct a new bridge.",
+    "exampleTranslation": "يخططون لبناء جسر جديد."
+  },
+  {
+    "id": 298,
+    "word": "construction",
+    "meaning": "بناء / إنشاء",
+    "example": "The construction of the building will take two years.",
+    "exampleTranslation": "ستستغرق عملية بناء المبنى عامين."
+  },
+  {
+    "id": 299,
+    "word": "consultant",
+    "meaning": "مستشار",
+    "example": "The company hired a consultant to improve efficiency.",
+    "exampleTranslation": "وظفت الشركة مستشارًا لتحسين الكفاءة."
+  },
+  {
+    "id": 300,
+    "word": "consume",
+    "meaning": "يستهلك / يتناول",
+    "example": "We consume a lot of electricity every month.",
+    "exampleTranslation": "نستهلك الكثير من الكهرباء كل شهر."
+  },  {
+    "id": 301,
+    "word": "consumer",
+    "meaning": "مستهلك",
+    "example": "The consumer is always right in retail business.",
+    "exampleTranslation": "المستهلك دائمًا على حق في تجارة التجزئة."
+  },
+  {
+    "id": 302,
+    "word": "consumption",
+    "meaning": "استهلاك",
+    "example": "Energy consumption has increased this year.",
+    "exampleTranslation": "زاد استهلاك الطاقة هذا العام."
+  },
+  {
+    "id": 303,
+    "word": "contact",
+    "meaning": "اتصال / تواصل",
+    "example": "Please contact me if you have any questions.",
+    "exampleTranslation": "يرجى الاتصال بي إذا كان لديك أي أسئلة."
+  },
+  {
+    "id": 304,
+    "word": "contain",
+    "meaning": "يحتوي على",
+    "example": "This box contains old photos.",
+    "exampleTranslation": "تحتوي هذه الصندوق على صور قديمة."
+  },
+  {
+    "id": 305,
+    "word": "container",
+    "meaning": "حاوية / وعاء",
+    "example": "The container is filled with water.",
+    "exampleTranslation": "الحاوية مليئة بالماء."
+  },
+  {
+    "id": 306,
+    "word": "contemporary",
+    "meaning": "معاصر / حديث",
+    "example": "This museum displays contemporary art.",
+    "exampleTranslation": "يعرض هذا المتحف الفن المعاصر."
+  },
+  {
+    "id": 307,
+    "word": "content",
+    "meaning": "محتوى / راضٍ",
+    "example": "She is content with her life.",
+    "exampleTranslation": "هي راضية عن حياتها."
+  },
+  {
+    "id": 308,
+    "word": "contest",
+    "meaning": "مسابقة / منافسة",
+    "example": "He won the singing contest.",
+    "exampleTranslation": "فاز بمسابقة الغناء."
+  },
+  {
+    "id": 309,
+    "word": "context",
+    "meaning": "سياق / ظرف",
+    "example": "You need to understand the context of the sentence.",
+    "exampleTranslation": "تحتاج إلى فهم سياق الجملة."
+  },
+  {
+    "id": 310,
+    "word": "continued",
+    "meaning": "مستمر / تابع",
+    "example": "The continued growth of the company is impressive.",
+    "exampleTranslation": "النمو المستمر للشركة مثير للإعجاب."
+  },
+  {
+    "id": 311,
+    "word": "contract",
+    "meaning": "عقد / يتعاقد",
+    "example": "They signed a contract for the project.",
+    "exampleTranslation": "وقعوا عقدًا للمشروع."
+  },
+  {
+    "id": 312,
+    "word": "contrast",
+    "meaning": "تباين / اختلاف",
+    "example": "There is a strong contrast between the two styles.",
+    "exampleTranslation": "هناك تباين كبير بين الأسلوبين."
+  },
+  {
+    "id": 313,
+    "word": "contribute",
+    "meaning": "يساهم / يشارك",
+    "example": "She contributes regularly to the charity.",
+    "exampleTranslation": "هي تساهم بانتظام في العمل الخيري."
+  },
+  {
+    "id": 314,
+    "word": "contribution",
+    "meaning": "مساهمة",
+    "example": "His contribution to the project was significant.",
+    "exampleTranslation": "كانت مساهمته في المشروع كبيرة."
+  },
+  {
+    "id": 315,
+    "word": "control",
+    "meaning": "تحكم / سيطرة",
+    "example": "You should control your emotions.",
+    "exampleTranslation": "يجب أن تتحكم في مشاعرك."
+  },
+  {
+    "id": 316,
+    "word": "controversial",
+    "meaning": "مثير للجدل",
+    "example": "The decision was highly controversial.",
+    "exampleTranslation": "كان القرار مثيرًا للجدل جدًا."
+  },
+  {
+    "id": 317,
+    "word": "controversy",
+    "meaning": "جدل / خلاف",
+    "example": "The policy caused a lot of controversy.",
+    "exampleTranslation": "تسببت السياسة في الكثير من الجدل."
+  },
+  {
+    "id": 318,
+    "word": "convention",
+    "meaning": "مؤتمر / اتفاقية",
+    "example": "The annual convention attracted many participants.",
+    "exampleTranslation": "جذب المؤتمر السنوي العديد من المشاركين."
+  },
+  {
+    "id": 319,
+    "word": "conventional",
+    "meaning": "تقليدي",
+    "example": "He prefers conventional methods of teaching.",
+    "exampleTranslation": "يفضل طرق التدريس التقليدية."
+  },
+  {
+    "id": 320,
+    "word": "conversation",
+    "meaning": "محادثة",
+    "example": "We had a long conversation about life.",
+    "exampleTranslation": "أجرينا محادثة طويلة عن الحياة."
+  },
+  {
+    "id": 321,
+    "word": "convert",
+    "meaning": "يحوّل / يغير",
+    "example": "He converted the old factory into apartments.",
+    "exampleTranslation": "حوّل المصنع القديم إلى شقق."
+  },
+  {
+    "id": 322,
+    "word": "conviction",
+    "meaning": "اقتناع / إدانة",
+    "example": "She spoke with conviction about her beliefs.",
+    "exampleTranslation": "تحدثت بثقة عن معتقداتها."
+  },
+  {
+    "id": 323,
+    "word": "convince",
+    "meaning": "يقنع",
+    "example": "He convinced me to try the new restaurant.",
+    "exampleTranslation": "أقنعني بتجربة المطعم الجديد."
+  },
+  {
+    "id": 324,
+    "word": "cook",
+    "meaning": "يطبخ / طباخ",
+    "example": "I like to cook Italian food.",
+    "exampleTranslation": "أحب طهي الطعام الإيطالي."
+  },
+  {
+    "id": 325,
+    "word": "cookie",
+    "meaning": "بسكويت / كوكي",
+    "example": "She baked chocolate chip cookies.",
+    "exampleTranslation": "خبزت بسكويت رقائق الشوكولاتة."
+  },
+  {
+    "id": 326,
+    "word": "cooking",
+    "meaning": "الطبخ",
+    "example": "He enjoys cooking for his family.",
+    "exampleTranslation": "يستمتع بالطبخ لعائلته."
+  },
+  {
+    "id": 327,
+    "word": "coal",
+    "meaning": "فحم",
+    "example": "The factory uses coal for energy.",
+    "exampleTranslation": "تستخدم المصنع الفحم للطاقة."
+  },
+  {
+    "id": 328,
+    "word": "cooperation",
+    "meaning": "تعاون",
+    "example": "International cooperation is essential for climate action.",
+    "exampleTranslation": "التعاون الدولي ضروري للعمل على المناخ."
+  },
+  {
+    "id": 329,
+    "word": "cop",
+    "meaning": "شرطي",
+    "example": "The cop helped direct traffic.",
+    "exampleTranslation": "ساعد الشرطي في توجيه حركة المرور."
+  },
+  {
+    "id": 330,
+    "word": "cope",
+    "meaning": "يتعامل مع / يتأقلم",
+    "example": "She copes well with stress.",
+    "exampleTranslation": "هي تتأقلم جيدًا مع الضغوط."
+  },
+  {
+    "id": 331,
+    "word": "core",
+    "meaning": "جوهر / لب",
+    "example": "Honesty is at the core of his character.",
+    "exampleTranslation": "الصدق في صميم شخصيته."
+  },
+  {
+    "id": 332,
+    "word": "corn",
+    "meaning": "ذرة",
+    "example": "Corn is a staple food in many countries.",
+    "exampleTranslation": "الذرة طعام أساسي في العديد من الدول."
+  },
+  {
+    "id": 333,
+    "word": "corner",
+    "meaning": "زاوية / ركن",
+    "example": "He stood at the corner of the street.",
+    "exampleTranslation": "وقف عند زاوية الشارع."
+  },
+  {
+    "id": 334,
+    "word": "corporate",
+    "meaning": "شركي / مؤسسي",
+    "example": "Corporate culture influences employee behavior.",
+    "exampleTranslation": "ثقافة الشركة تؤثر على سلوك الموظفين."
+  },
+  {
+    "id": 335,
+    "word": "corporation",
+    "meaning": "شركة كبيرة / مؤسسة",
+    "example": "The corporation expanded its business overseas.",
+    "exampleTranslation": "وسعت الشركة أعمالها في الخارج."
+  },
+  {
+    "id": 336,
+    "word": "correct",
+    "meaning": "صحيح / يصحح",
+    "example": "Please correct the errors in the report.",
+    "exampleTranslation": "يرجى تصحيح الأخطاء في التقرير."
+  },
+  {
+    "id": 337,
+    "word": "correspondent",
+    "meaning": "مراسل",
+    "example": "The correspondent reported live from the scene.",
+    "exampleTranslation": "قام المراسل بالتقرير مباشرة من موقع الحدث."
+  },
+  {
+    "id": 338,
+    "word": "cost",
+    "meaning": "تكلفة / يكلف",
+    "example": "The project will cost a lot of money.",
+    "exampleTranslation": "سيكلف المشروع الكثير من المال."
+  },
+  {
+    "id": 339,
+    "word": "cotton",
+    "meaning": "قطن",
+    "example": "The shirt is made of 100% cotton.",
+    "exampleTranslation": "القميص مصنوع من القطن بنسبة 100%."
+  },
+  {
+    "id": 340,
+    "word": "couch",
+    "meaning": "أريكة",
+    "example": "He sat on the couch and relaxed.",
+    "exampleTranslation": "جلس على الأريكة واسترخى."
+  },
+  {
+    "id": 341,
+    "word": "could",
+    "meaning": "يمكن / استطاع",
+    "example": "She could solve the problem easily.",
+    "exampleTranslation": "استطاعت حل المشكلة بسهولة."
+  },
+  {
+    "id": 342,
+    "word": "council",
+    "meaning": "مجلس / لجنة",
+    "example": "The city council approved the new project.",
+    "exampleTranslation": "وافق مجلس المدينة على المشروع الجديد."
+  },
+  {
+    "id": 343,
+    "word": "counselor",
+    "meaning": "مستشار / مرشد",
+    "example": "The student talked to a school counselor.",
+    "exampleTranslation": "تحدث الطالب إلى المستشار المدرسي."
+  },
+  {
+    "id": 344,
+    "word": "count",
+    "meaning": "يعد / عدّ",
+    "example": "Please count the number of chairs in the room.",
+    "exampleTranslation": "يرجى عد عدد الكراسي في الغرفة."
+  },
+  {
+    "id": 345,
+    "word": "counter",
+    "meaning": "عداد / كاونتر",
+    "example": "He placed the items on the counter.",
+    "exampleTranslation": "وضع العناصر على الكاونتر."
+  },
+  {
+    "id": 346,
+    "word": "county",
+    "meaning": "مقاطعة",
+    "example": "He lives in a rural county.",
+    "exampleTranslation": "يعيش في مقاطعة ريفية."
+  },
+  {
+    "id": 347,
+    "word": "courage",
+    "meaning": "شجاعة",
+    "example": "It takes courage to speak in public.",
+    "exampleTranslation": "يتطلب الأمر شجاعة للتحدث أمام الجمهور."
+  },
+  {
+    "id": 348,
+    "word": "coverage",
+    "meaning": "تغطية / تغطية إعلامية",
+    "example": "The news coverage was very detailed.",
+    "exampleTranslation": "كانت التغطية الإخبارية مفصلة جدًا."
+  },
+  {
+    "id": 349,
+    "word": "cow",
+    "meaning": "بقرة",
+    "example": "The farmer milked the cow in the morning.",
+    "exampleTranslation": "حلب الفلاح البقرة في الصباح."
+  },
+  {
+    "id": 350,
+    "word": "crack",
+    "meaning": "شق / يتصدع",
+    "example": "There is a crack in the wall.",
+    "exampleTranslation": "هناك شق في الجدار."
+  },{
+    "id": 351,
+    "word": "craft",
+    "meaning": "حرفة / مهارة",
+    "example": "He learned the craft of woodworking.",
+    "exampleTranslation": "تعلم حرفة النجارة."
+  },
+  {
+    "id": 352,
+    "word": "cream",
+    "meaning": "كريم / قشطة",
+    "example": "She put cream on her coffee.",
+    "exampleTranslation": "وضعت القشطة على قهوتها."
+  },
+  {
+    "id": 353,
+    "word": "creative",
+    "meaning": "مبدع",
+    "example": "She is very creative and loves painting.",
+    "exampleTranslation": "هي مبدعة جدًا وتحب الرسم."
+  },
+  {
+    "id": 354,
+    "word": "creature",
+    "meaning": "مخلوق / كائن",
+    "example": "A strange creature appeared in the forest.",
+    "exampleTranslation": "ظهر مخلوق غريب في الغابة."
+  },
+  {
+    "id": 355,
+    "word": "credit",
+    "meaning": "ائتمان / فضل",
+    "example": "She received credit for her work.",
+    "exampleTranslation": "حصلت على التقدير لعملها."
+  },
+  {
+    "id": 356,
+    "word": "crew",
+    "meaning": "طاقم / فرقة",
+    "example": "The crew prepared the ship for departure.",
+    "exampleTranslation": "أعد الطاقم السفينة للإبحار."
+  },
+  {
+    "id": 357,
+    "word": "crime",
+    "meaning": "جريمة",
+    "example": "Crime rates are decreasing in the city.",
+    "exampleTranslation": "معدلات الجريمة تتناقص في المدينة."
+  },
+  {
+    "id": 358,
+    "word": "criminal",
+    "meaning": "مجرم / إجرامي",
+    "example": "The police caught the criminal.",
+    "exampleTranslation": "ألقت الشرطة القبض على المجرم."
+  },
+  {
+    "id": 359,
+    "word": "crisis",
+    "meaning": "أزمة",
+    "example": "The country is facing an economic crisis.",
+    "exampleTranslation": "تواجه البلاد أزمة اقتصادية."
+  },
+  {
+    "id": 360,
+    "word": "criteria",
+    "meaning": "معايير",
+    "example": "The candidates must meet all the criteria.",
+    "exampleTranslation": "يجب أن يستوفي المرشحون جميع المعايير."
+  },
+  {
+    "id": 361,
+    "word": "critic",
+    "meaning": "ناقد",
+    "example": "The critic praised the new movie.",
+    "exampleTranslation": "أشاد الناقد بالفيلم الجديد."
+  },
+  {
+    "id": 362,
+    "word": "critical",
+    "meaning": "حرج / نقدي",
+    "example": "It is critical to follow safety rules.",
+    "exampleTranslation": "من الضروري اتباع قواعد السلامة."
+  },
+  {
+    "id": 363,
+    "word": "criticism",
+    "meaning": "نقد",
+    "example": "She received constructive criticism from her teacher.",
+    "exampleTranslation": "تلقت نقدًا بنّاءً من معلمتها."
+  },
+  {
+    "id": 364,
+    "word": "criticize",
+    "meaning": "ينتقد",
+    "example": "He tends to criticize others too harshly.",
+    "exampleTranslation": "يميل إلى انتقاد الآخرين بشكل قاسٍ جدًا."
+  },
+  {
+    "id": 365,
+    "word": "crop",
+    "meaning": "محصول / يحصد",
+    "example": "The farmers planted a new crop of wheat.",
+    "exampleTranslation": "زرع الفلاحون محصولًا جديدًا من القمح."
+  },
+  {
+    "id": 366,
+    "word": "cross",
+    "meaning": "يعبر / صليب",
+    "example": "He crossed the street carefully.",
+    "exampleTranslation": "عبر الشارع بحذر."
+  },
+  {
+    "id": 367,
+    "word": "crowd",
+    "meaning": "حشد / جمهور",
+    "example": "A large crowd attended the concert.",
+    "exampleTranslation": "حضر حشد كبير الحفل."
+  },
+  {
+    "id": 368,
+    "word": "crucial",
+    "meaning": "حاسم / بالغ الأهمية",
+    "example": "It is crucial to finish the project on time.",
+    "exampleTranslation": "من الضروري إنهاء المشروع في الوقت المحدد."
+  },
+  {
+    "id": 369,
+    "word": "cry",
+    "meaning": "يبكي / صرخة",
+    "example": "The baby began to cry loudly.",
+    "exampleTranslation": "بدأ الطفل يبكي بصوت عالٍ."
+  },
+  {
+    "id": 370,
+    "word": "cultural",
+    "meaning": "ثقافي",
+    "example": "The festival celebrates cultural diversity.",
+    "exampleTranslation": "يحتفل المهرجان بالتنوع الثقافي."
+  },
+  {
+    "id": 371,
+    "word": "curious",
+    "meaning": "فضولي / مهتم بالاستكشاف",
+    "example": "The child was curious about the new toy.",
+    "exampleTranslation": "كان الطفل فضوليًا بشأن اللعبة الجديدة."
+  },
+  {
+    "id": 372,
+    "word": "currently",
+    "meaning": "حاليًا",
+    "example": "She is currently working on a new project.",
+    "exampleTranslation": "هي تعمل حاليًا على مشروع جديد."
+  },
+  {
+    "id": 373,
+    "word": "curriculum",
+    "meaning": "منهج دراسي",
+    "example": "The school updated its curriculum this year.",
+    "exampleTranslation": "حدثت المدرسة منهجها الدراسي هذا العام."
+  },
+  {
+    "id": 374,
+    "word": "custom",
+    "meaning": "عادة / عرف",
+    "example": "It is a custom to shake hands when greeting.",
+    "exampleTranslation": "من العرف مصافحة اليد عند التحية."
+  },
+  {
+    "id": 375,
+    "word": "customer",
+    "meaning": "زبون / عميل",
+    "example": "The customer asked for a refund.",
+    "exampleTranslation": "طلب الزبون استرداد المال."
+  },
+  {
+    "id": 376,
+    "word": "cycle",
+    "meaning": "دورة / يركب الدراجة",
+    "example": "He cycles to work every day.",
+    "exampleTranslation": "يذهب إلى العمل بالدراجة كل يوم."
+  },
+  {
+    "id": 377,
+    "word": "dangerous",
+    "meaning": "خطر / خطير",
+    "example": "It is dangerous to drive in the snow.",
+    "exampleTranslation": "من الخطر القيادة في الثلج."
+  },
+  {
+    "id": 378,
+    "word": "dare",
+    "meaning": "يتجرأ / تحدي",
+    "example": "I dare you to jump into the lake.",
+    "exampleTranslation": "أتحداك أن تقفز في البحيرة."
+  },
+  {
+    "id": 379,
+    "word": "dear",
+    "meaning": "عزيز / حبيب",
+    "example": "She wrote a letter to her dear friend.",
+    "exampleTranslation": "كتبت رسالة إلى صديقتها العزيزة."
+  },
+  {
+    "id": 380,
+    "word": "debate",
+    "meaning": "مناظرة / يجادل",
+    "example": "They debated the issue for hours.",
+    "exampleTranslation": "جادلوا في القضية لساعات."
+  },
+  {
+    "id": 381,
+    "word": "debt",
+    "meaning": "دين",
+    "example": "He finally paid off his debt.",
+    "exampleTranslation": "سدد ديونه أخيرًا."
+  },
+  {
+    "id": 382,
+    "word": "deck",
+    "meaning": "سطح / منصة",
+    "example": "They sat on the deck and enjoyed the view.",
+    "exampleTranslation": "جلسوا على السطح واستمتعوا بالمنظر."
+  },
+  {
+    "id": 383,
+    "word": "declare",
+    "meaning": "يعلن / يصرح",
+    "example": "The government declared a state of emergency.",
+    "exampleTranslation": "أعلنت الحكومة حالة الطوارئ."
+  },
+  {
+    "id": 384,
+    "word": "decline",
+    "meaning": "ينخفض / يرفض",
+    "example": "The company's sales declined last year.",
+    "exampleTranslation": "انخفضت مبيعات الشركة في العام الماضي."
+  },
+  {
+    "id": 385,
+    "word": "decrease",
+    "meaning": "يقل / يخفض",
+    "example": "We need to decrease our energy consumption.",
+    "exampleTranslation": "نحتاج لتقليل استهلاك الطاقة لدينا."
+  },
+  {
+    "id": 386,
+    "word": "deer",
+    "meaning": "غزال",
+    "example": "A deer crossed the road.",
+    "exampleTranslation": "عبر غزال الطريق."
+  },
+  {
+    "id": 387,
+    "word": "defeat",
+    "meaning": "هزيمة / يهزم",
+    "example": "The team faced a crushing defeat.",
+    "exampleTranslation": "واجه الفريق هزيمة ساحقة."
+  },
+  {
+    "id": 388,
+    "word": "defendant",
+    "meaning": "مدعى عليه",
+    "example": "The defendant pleaded not guilty.",
+    "exampleTranslation": "ادعى المدعى عليه أنه غير مذنب."
+  },
+  {
+    "id": 389,
+    "word": "defensive",
+    "meaning": "دفاعي",
+    "example": "He became defensive during the discussion.",
+    "exampleTranslation": "أصبح دفاعيًا أثناء النقاش."
+  },
+  {
+    "id": 390,
+    "word": "deficit",
+    "meaning": "عجز",
+    "example": "The country faces a budget deficit.",
+    "exampleTranslation": "تواجه البلاد عجزًا في الميزانية."
+  },
+  {
+    "id": 391,
+    "word": "delivery",
+    "meaning": "توصيل / تسليم",
+    "example": "The delivery arrived on time.",
+    "exampleTranslation": "وصل التوصيل في الوقت المحدد."
+  },
+  {
+    "id": 392,
+    "word": "demand",
+    "meaning": "طلب / يطالب",
+    "example": "There is a high demand for electric cars.",
+    "exampleTranslation": "هناك طلب مرتفع على السيارات الكهربائية."
+  },
+  {
+    "id": 393,
+    "word": "democracy",
+    "meaning": "ديمقراطية",
+    "example": "Democracy allows citizens to vote.",
+    "exampleTranslation": "تتيح الديمقراطية للمواطنين التصويت."
+  },
+  {
+    "id": 394,
+    "word": "Democrat",
+    "meaning": "ديمقراطي (عضو الحزب)",
+    "example": "He is a Democrat in the local election.",
+    "exampleTranslation": "هو عضو ديمقراطي في الانتخابات المحلية."
+  },
+  {
+    "id": 395,
+    "word": "democratic",
+    "meaning": "ديمقراطي",
+    "example": "The country has a democratic government.",
+    "exampleTranslation": "البلاد لديها حكومة ديمقراطية."
+  },
+  {
+    "id": 396,
+    "word": "demonstrate",
+    "meaning": "يظهر / يتظاهر",
+    "example": "The students demonstrated for better facilities.",
+    "exampleTranslation": "تظاهر الطلاب من أجل تحسين المرافق."
+  },
+  {
+    "id": 397,
+    "word": "demonstration",
+    "meaning": "تظاهر / عرض توضيحي",
+    "example": "The demonstration attracted thousands of people.",
+    "exampleTranslation": "جذب التظاهر الآلاف من الناس."
+  },
+  {
+    "id": 398,
+    "word": "deny",
+    "meaning": "ينكر / يرفض",
+    "example": "He denied all the accusations.",
+    "exampleTranslation": "أنكر جميع الاتهامات."
+  },
+  {
+    "id": 399,
+    "word": "dependent",
+    "meaning": "تابع / معتمد على",
+    "example": "Children are dependent on their parents.",
+    "exampleTranslation": "الأطفال معتمدون على والديهم."
+  },
+  {
+    "id": 400,
+    "word": "depending",
+    "meaning": "اعتمادًا على",
+    "example": "We will decide depending on the weather.",
+    "exampleTranslation": "سنقرر اعتمادًا على الطقس."
+  } , {
+    "id": 401,
+    "word": "depict",
+    "meaning": "يصوّر / يصف",
+    "example": "The painting depicts a beautiful landscape.",
+    "exampleTranslation": "تصوّر اللوحة منظرًا طبيعيًا جميلاً."
+  },
+  {
+    "id": 402,
+    "word": "depression",
+    "meaning": "اكتئاب / كساد",
+    "example": "She suffered from depression after the accident.",
+    "exampleTranslation": "عانت من الاكتئاب بعد الحادث."
+  },
+  {
+    "id": 403,
+    "word": "depth",
+    "meaning": "عمق",
+    "example": "The diver measured the depth of the lake.",
+    "exampleTranslation": "قام الغواص بقياس عمق البحيرة."
+  },
+  {
+    "id": 404,
+    "word": "deputy",
+    "meaning": "نائب / مساعد",
+    "example": "He was appointed as the deputy manager.",
+    "exampleTranslation": "تم تعيينه كنائب للمدير."
+  },
+  {
+    "id": 405,
+    "word": "derive",
+    "meaning": "يستمد / يستخلص",
+    "example": "Many English words derive from Latin.",
+    "exampleTranslation": "العديد من الكلمات الإنجليزية مستمدة من اللاتينية."
+  },
+  {
+    "id": 406,
+    "word": "desert",
+    "meaning": "صحراء / يهجر",
+    "example": "The camel crossed the desert easily.",
+    "exampleTranslation": "عبرت الإبل الصحراء بسهولة."
+  },
+  {
+    "id": 407,
+    "word": "designer",
+    "meaning": "مصمم",
+    "example": "She works as a fashion designer.",
+    "exampleTranslation": "تعمل كمصممة أزياء."
+  },
+  {
+    "id": 408,
+    "word": "desperate",
+    "meaning": "يائس / عاجز عن الحل",
+    "example": "He made a desperate attempt to save the company.",
+    "exampleTranslation": "قام بمحاولة يائسة لإنقاذ الشركة."
+  },
+  {
+    "id": 409,
+    "word": "despite",
+    "meaning": "على الرغم من",
+    "example": "Despite the rain, they went hiking.",
+    "exampleTranslation": "على الرغم من المطر، ذهبوا في التنزه."
+  },
+  {
+    "id": 410,
+    "word": "destruction",
+    "meaning": "دمار / هدم",
+    "example": "The earthquake caused widespread destruction.",
+    "exampleTranslation": "تسبب الزلزال في دمار واسع."
+  },
+  {
+    "id": 411,
+    "word": "detailed",
+    "meaning": "مفصل / دقيق",
+    "example": "She gave a detailed explanation of the plan.",
+    "exampleTranslation": "قدمت شرحًا مفصلًا للخطة."
+  },
+  {
+    "id": 412,
+    "word": "detect",
+    "meaning": "يكتشف / يلاحظ",
+    "example": "The system can detect errors automatically.",
+    "exampleTranslation": "يمكن للنظام اكتشاف الأخطاء تلقائيًا."
+  },
+  {
+    "id": 413,
+    "word": "device",
+    "meaning": "جهاز / أداة",
+    "example": "This device measures heart rate accurately.",
+    "exampleTranslation": "يقيس هذا الجهاز معدل ضربات القلب بدقة."
+  },
+  {
+    "id": 414,
+    "word": "devote",
+    "meaning": "يكرّس / يخصص",
+    "example": "She devotes her time to helping the poor.",
+    "exampleTranslation": "تكرّس وقتها لمساعدة الفقراء."
+  },
+  {
+    "id": 415,
+    "word": "dialogue",
+    "meaning": "حوار",
+    "example": "The film includes a lot of dialogue.",
+    "exampleTranslation": "يتضمن الفيلم الكثير من الحوار."
+  },
+  {
+    "id": 416,
+    "word": "diet",
+    "meaning": "حمية / نظام غذائي",
+    "example": "He follows a strict diet for health reasons.",
+    "exampleTranslation": "يتبع نظامًا غذائيًا صارمًا لأسباب صحية."
+  },
+  {
+    "id": 417,
+    "word": "differ",
+    "meaning": "يختلف",
+    "example": "Opinions differ on this issue.",
+    "exampleTranslation": "تختلف الآراء حول هذه القضية."
+  },
+  {
+    "id": 418,
+    "word": "differently",
+    "meaning": "بشكل مختلف",
+    "example": "Children learn differently at different ages.",
+    "exampleTranslation": "يتعلم الأطفال بشكل مختلف في الأعمار المختلفة."
+  },
+  {
+    "id": 419,
+    "word": "difficult",
+    "meaning": "صعب",
+    "example": "This is a difficult problem to solve.",
+    "exampleTranslation": "هذه مشكلة صعبة الحل."
+  },
+  {
+    "id": 420,
+    "word": "difficulty",
+    "meaning": "صعوبة / عائق",
+    "example": "He had difficulty understanding the instructions.",
+    "exampleTranslation": "واجه صعوبة في فهم التعليمات."
+  },
+  {
+    "id": 421,
+    "word": "dig",
+    "meaning": "يحفر / يكتشف",
+    "example": "They dug a hole in the garden.",
+    "exampleTranslation": "حفَروا حفرة في الحديقة."
+  },
+  {
+    "id": 422,
+    "word": "digital",
+    "meaning": "رقمي",
+    "example": "Digital technology is everywhere today.",
+    "exampleTranslation": "التكنولوجيا الرقمية موجودة في كل مكان اليوم."
+  },
+  {
+    "id": 423,
+    "word": "dimension",
+    "meaning": "بعد / قياس",
+    "example": "The room has three dimensions: length, width, height.",
+    "exampleTranslation": "الغرفة لها ثلاثة أبعاد: الطول والعرض والارتفاع."
+  },
+  {
+    "id": 424,
+    "word": "dining",
+    "meaning": "تناول الطعام",
+    "example": "The hotel has a large dining area.",
+    "exampleTranslation": "الفندق يحتوي على منطقة طعام كبيرة."
+  },
+  {
+    "id": 425,
+    "word": "dinner",
+    "meaning": "عشاء",
+    "example": "We had dinner at a fancy restaurant.",
+    "exampleTranslation": "تناولنا العشاء في مطعم فاخر."
+  },
+  {
+    "id": 426,
+    "word": "direct",
+    "meaning": "مباشر / يوجه",
+    "example": "The teacher gave direct instructions.",
+    "exampleTranslation": "أعطى المعلم تعليمات مباشرة."
+  },
+  {
+    "id": 427,
+    "word": "directly",
+    "meaning": "مباشرةً",
+    "example": "You should go directly to the manager.",
+    "exampleTranslation": "يجب أن تذهب مباشرة إلى المدير."
+  },
+  {
+    "id": 428,
+    "word": "director",
+    "meaning": "مدير / مخرج",
+    "example": "The director of the company is very experienced.",
+    "exampleTranslation": "مدير الشركة ذو خبرة كبيرة."
+  },
+  {
+    "id": 429,
+    "word": "dirt",
+    "meaning": "أوساخ / تراب",
+    "example": "The children got dirt on their clothes while playing.",
+    "exampleTranslation": "اتسخت ملابس الأطفال بالتراب أثناء اللعب."
+  },
+  {
+    "id": 430,
+    "word": "disability",
+    "meaning": "إعاقة",
+    "example": "The school provides support for students with disabilities.",
+    "exampleTranslation": "توفر المدرسة دعمًا للطلاب ذوي الإعاقات."
+  },
+  {
+    "id": 431,
+    "word": "disaster",
+    "meaning": "كارثة",
+    "example": "The hurricane was a natural disaster.",
+    "exampleTranslation": "كانت الإعصار كارثة طبيعية."
+  },
+  {
+    "id": 432,
+    "word": "discourse",
+    "meaning": "خطاب / حديث",
+    "example": "The professor's discourse was very informative.",
+    "exampleTranslation": "كان خطاب الأستاذ غنيًا بالمعلومات."
+  },
+  {
+    "id": 433,
+    "word": "discovery",
+    "meaning": "اكتشاف",
+    "example": "The discovery of penicillin changed medicine.",
+    "exampleTranslation": "غيّر اكتشاف البنسلين الطب."
+  },
+  {
+    "id": 434,
+    "word": "discrimination",
+    "meaning": "تمييز / تحيز",
+    "example": "The law prohibits discrimination based on race.",
+    "exampleTranslation": "القانون يمنع التمييز على أساس العرق."
+  },
+  {
+    "id": 435,
+    "word": "dismiss",
+    "meaning": "يفصل / يرفض",
+    "example": "The manager dismissed the employee for misconduct.",
+    "exampleTranslation": "فصل المدير الموظف بسبب سوء السلوك."
+  },
+  {
+    "id": 436,
+    "word": "disorder",
+    "meaning": "اضطراب / فوضى",
+    "example": "The patient has a sleep disorder.",
+    "exampleTranslation": "المريض يعاني من اضطراب النوم."
+  },
+  {
+    "id": 437,
+    "word": "display",
+    "meaning": "يعرض / عرض",
+    "example": "The store displays its products in the window.",
+    "exampleTranslation": "يعرض المتجر منتجاته في النافذة."
+  },
+  {
+    "id": 438,
+    "word": "distance",
+    "meaning": "مسافة / بعد",
+    "example": "The distance between the two cities is 100 km.",
+    "exampleTranslation": "المسافة بين المدينتين 100 كم."
+  },
+  {
+    "id": 439,
+    "word": "distinct",
+    "meaning": "متميز / واضح",
+    "example": "There is a distinct difference between the two products.",
+    "exampleTranslation": "هناك فرق واضح بين المنتجين."
+  },
+  {
+    "id": 440,
+    "word": "distinction",
+    "meaning": "تمييز / فارق",
+    "example": "She graduated with distinction.",
+    "exampleTranslation": "تخرجت مع مرتبة الشرف."
+  },
+  {
+    "id": 441,
+    "word": "distinguish",
+    "meaning": "يميز / يفرق",
+    "example": "It's hard to distinguish between the twins.",
+    "exampleTranslation": "من الصعب التمييز بين التوأمين."
+  },
+  {
+    "id": 442,
+    "word": "distribute",
+    "meaning": "يوزع",
+    "example": "They distribute food to the needy.",
+    "exampleTranslation": "يوزعون الطعام على المحتاجين."
+  },
+  {
+    "id": 443,
+    "word": "distribution",
+    "meaning": "توزيع",
+    "example": "The distribution of wealth is unequal.",
+    "exampleTranslation": "توزيع الثروة غير متساوٍ."
+  },
+  {
+    "id": 444,
+    "word": "district",
+    "meaning": "منطقة / حي",
+    "example": "He lives in the downtown district.",
+    "exampleTranslation": "يعيش في منطقة وسط المدينة."
+  },
+  {
+    "id": 445,
+    "word": "diverse",
+    "meaning": "متنوع",
+    "example": "The city has a diverse population.",
+    "exampleTranslation": "المدينة ذات سكان متنوعين."
+  },
+  {
+    "id": 446,
+    "word": "diversity",
+    "meaning": "تنوع",
+    "example": "Workplaces benefit from diversity.",
+    "exampleTranslation": "تستفيد أماكن العمل من التنوع."
+  },
+  {
+    "id": 447,
+    "word": "divide",
+    "meaning": "يقسم / يفرق",
+    "example": "The teacher divided the class into groups.",
+    "exampleTranslation": "قسم المعلم الفصل إلى مجموعات."
+  },
+  {
+    "id": 448,
+    "word": "division",
+    "meaning": "قسم / انقسام",
+    "example": "The company has a new marketing division.",
+    "exampleTranslation": "لدى الشركة قسم تسويق جديد."
+  },
+  {
+    "id": 449,
+    "word": "divorce",
+    "meaning": "طلاق / يطلق",
+    "example": "They decided to get a divorce.",
+    "exampleTranslation": "قرروا الطلاق."
+  } ,  {
+    "id": 450,
+    "word": "domestic",
+    "meaning": "محلي / منزلي",
+    "example": "Domestic flights are cheaper than international ones.",
+    "exampleTranslation": "الرحلات المحلية أرخص من الرحلات الدولية."
+  },
+  {
+    "id": 451,
+    "word": "dominant",
+    "meaning": "مهيمن / سائد",
+    "example": "English is the dominant language in many countries.",
+    "exampleTranslation": "الإنجليزية هي اللغة السائدة في العديد من البلدان."
+  },
+  {
+    "id": 452,
+    "word": "dominate",
+    "meaning": "يسيطر / يهيمن",
+    "example": "The company dominates the smartphone market.",
+    "exampleTranslation": "تسيطر الشركة على سوق الهواتف الذكية."
+  },
+  {
+    "id": 453,
+    "word": "doubt",
+    "meaning": "شك / يشك",
+    "example": "I doubt that he will come.",
+    "exampleTranslation": "أشك أنه سيأتي."
+  },
+  {
+    "id": 454,
+    "word": "dozen",
+    "meaning": "دزينة / اثنا عشر",
+    "example": "He bought a dozen eggs.",
+    "exampleTranslation": "اشترى اثني عشر بيضة."
+  },
+  {
+    "id": 455,
+    "word": "draft",
+    "meaning": "مسودة / يصيغ",
+    "example": "She wrote a draft of her essay.",
+    "exampleTranslation": "كتبت مسودة لمقالها."
+  },
+  {
+    "id": 456,
+    "word": "drag",
+    "meaning": "يسحب / يجر",
+    "example": "He had to drag the heavy box across the floor.",
+    "exampleTranslation": "اضطر إلى سحب الصندوق الثقيل عبر الأرض."
+  },
+  {
+    "id": 457,
+    "word": "drama",
+    "meaning": "دراما / مسرحية",
+    "example": "She enjoys watching Korean dramas.",
+    "exampleTranslation": "تستمتع بمشاهدة الدراما الكورية."
+  },
+  {
+    "id": 458,
+    "word": "dramatic",
+    "meaning": "درامي / مثير",
+    "example": "There was a dramatic change in the weather.",
+    "exampleTranslation": "حدث تغير كبير في الطقس."
+  },
+  {
+    "id": 459,
+    "word": "dramatically",
+    "meaning": "بشكل كبير / دراميًا",
+    "example": "The prices have increased dramatically.",
+    "exampleTranslation": "ارتفعت الأسعار بشكل كبير."
+  },
+  {
+    "id": 460,
+    "word": "draw",
+    "meaning": "يرسم / يسحب",
+    "example": "She likes to draw animals.",
+    "exampleTranslation": "تحب أن ترسم الحيوانات."
+  },
+  {
+    "id": 461,
+    "word": "drawing",
+    "meaning": "رسم / رسمة",
+    "example": "His drawing won first prize.",
+    "exampleTranslation": "فازت رسمةُه بالجائزة الأولى."
+  },
+  {
+    "id": 462,
+    "word": "dream",
+    "meaning": "حلم / يحلم",
+    "example": "He had a strange dream last night.",
+    "exampleTranslation": "حلم حلمًا غريبًا الليلة الماضية."
+  },
+  {
+    "id": 463,
+    "word": "dress",
+    "meaning": "فستان / يرتدي",
+    "example": "She wore a beautiful red dress.",
+    "exampleTranslation": "ارتدت فستانًا أحمر جميلًا."
+  },
+  {
+    "id": 464,
+    "word": "driver",
+    "meaning": "سائق",
+    "example": "The driver stopped the bus safely.",
+    "exampleTranslation": "أوقف السائق الحافلة بأمان."
+  },
+  {
+    "id": 465,
+    "word": "dry",
+    "meaning": "جاف / يجفف",
+    "example": "The clothes are dry now.",
+    "exampleTranslation": "الملابس جافة الآن."
+  },
+  {
+    "id": 466,
+    "word": "due",
+    "meaning": "مستحق / ناتج عن",
+    "example": "The payment is due tomorrow.",
+    "exampleTranslation": "الدفعة مستحقة غدًا."
+  },
+  {
+    "id": 467,
+    "word": "dust",
+    "meaning": "غبار / ينفض الغبار",
+    "example": "She cleaned the table to remove the dust.",
+    "exampleTranslation": "نظفت الطاولة لإزالة الغبار."
+  },
+  {
+    "id": 468,
+    "word": "eager",
+    "meaning": "متحمس / متشوق",
+    "example": "The students were eager to learn.",
+    "exampleTranslation": "كان الطلاب متحمسين للتعلم."
+  },
+  {
+    "id": 469,
+    "word": "earn",
+    "meaning": "يكسب / يحصل على",
+    "example": "He earns a good salary.",
+    "exampleTranslation": "يكسب راتبًا جيدًا."
+  },
+  {
+    "id": 470,
+    "word": "earnings",
+    "meaning": "أرباح / دخل",
+    "example": "The company’s earnings increased this year.",
+    "exampleTranslation": "زادت أرباح الشركة هذا العام."
+  },
+  {
+    "id": 471,
+    "word": "economics",
+    "meaning": "الاقتصاد (علم)",
+    "example": "He is studying economics at university.",
+    "exampleTranslation": "يدرس الاقتصاد في الجامعة."
+  },
+  {
+    "id": 472,
+    "word": "economist",
+    "meaning": "خبير اقتصادي",
+    "example": "The economist predicted a rise in inflation.",
+    "exampleTranslation": "توقع الخبير الاقتصادي ارتفاع التضخم."
+  },
+  {
+    "id": 473,
+    "word": "economy",
+    "meaning": "اقتصاد",
+    "example": "The global economy is recovering slowly.",
+    "exampleTranslation": "الاقتصاد العالمي يتعافى ببطء."
+  },
+  {
+    "id": 474,
+    "word": "edge",
+    "meaning": "حافة / طرف",
+    "example": "The cat sat on the edge of the table.",
+    "exampleTranslation": "جلست القطة على حافة الطاولة."
+  },
+  {
+    "id": 475,
+    "word": "edition",
+    "meaning": "طبعة / إصدار",
+    "example": "This is the latest edition of the book.",
+    "exampleTranslation": "هذه أحدث طبعة من الكتاب."
+  },
+  {
+    "id": 476,
+    "word": "editor",
+    "meaning": "محرر",
+    "example": "The editor reviewed the article before publishing.",
+    "exampleTranslation": "راجع المحرر المقال قبل النشر."
+  },
+  {
+    "id": 477,
+    "word": "educate",
+    "meaning": "يثقف / يُعلّم",
+    "example": "Parents should educate their children about honesty.",
+    "exampleTranslation": "يجب على الآباء تعليم أطفالهم الصدق."
+  },
+  {
+    "id": 478,
+    "word": "educational",
+    "meaning": "تربوي / تعليمي",
+    "example": "The website offers educational videos.",
+    "exampleTranslation": "يقدم الموقع فيديوهات تعليمية."
+  },
+  {
+    "id": 479,
+    "word": "educator",
+    "meaning": "مربٍ / معلم",
+    "example": "She is a respected educator in her community.",
+    "exampleTranslation": "هي معلمة محترمة في مجتمعها."
+  },
+  {
+    "id": 480,
+    "word": "effect",
+    "meaning": "تأثير / نتيجة",
+    "example": "The new law had a positive effect.",
+    "exampleTranslation": "كان للقانون الجديد تأثير إيجابي."
+  },
+  {
+    "id": 481,
+    "word": "effective",
+    "meaning": "فعّال / مؤثر",
+    "example": "This medicine is very effective.",
+    "exampleTranslation": "هذا الدواء فعّال جدًا."
+  },
+  {
+    "id": 482,
+    "word": "effectively",
+    "meaning": "بشكل فعّال",
+    "example": "She managed the team effectively.",
+    "exampleTranslation": "أدارت الفريق بشكل فعّال."
+  },
+  {
+    "id": 483,
+    "word": "efficiency",
+    "meaning": "كفاءة / فعالية",
+    "example": "Energy efficiency saves money and resources.",
+    "exampleTranslation": "كفاءة الطاقة توفر المال والموارد."
+  },
+  {
+    "id": 484,
+    "word": "efficient",
+    "meaning": "كفء / فعّال",
+    "example": "He is an efficient worker.",
+    "exampleTranslation": "هو عامل كفء."
+  },
+  {
+    "id": 485,
+    "word": "effort",
+    "meaning": "جهد / مجهود",
+    "example": "Success requires hard effort.",
+    "exampleTranslation": "النجاح يتطلب جهدًا كبيرًا."
+  },
+  {
+    "id": 486,
+    "word": "either",
+    "meaning": "أيٌّ من / أيضًا (في النفي)",
+    "example": "You can choose either option.",
+    "exampleTranslation": "يمكنك اختيار أي من الخيارين."
+  },
+  {
+    "id": 487,
+    "word": "elderly",
+    "meaning": "كبير في السن / مسنّ",
+    "example": "They take care of elderly people.",
+    "exampleTranslation": "يعتنون بكبار السن."
+  },
+  {
+    "id": 488,
+    "word": "elect",
+    "meaning": "ينتخب / يختار",
+    "example": "They elected a new president.",
+    "exampleTranslation": "انتخبوا رئيسًا جديدًا."
+  },
+  {
+    "id": 489,
+    "word": "election",
+    "meaning": "انتخابات",
+    "example": "The election results will be announced tomorrow.",
+    "exampleTranslation": "ستُعلن نتائج الانتخابات غدًا."
+  },
+  {
+    "id": 490,
+    "word": "electric",
+    "meaning": "كهربائي",
+    "example": "We bought an electric car.",
+    "exampleTranslation": "اشترينا سيارة كهربائية."
+  },
+  {
+    "id": 491,
+    "word": "electricity",
+    "meaning": "كهرباء",
+    "example": "Electricity is essential for modern life.",
+    "exampleTranslation": "الكهرباء ضرورية للحياة الحديثة."
+  },
+  {
+    "id": 492,
+    "word": "electronic",
+    "meaning": "إلكتروني",
+    "example": "He repaired the electronic device.",
+    "exampleTranslation": "أصلح الجهاز الإلكتروني."
+  },
+  {
+    "id": 493,
+    "word": "element",
+    "meaning": "عنصر / مكوّن",
+    "example": "Oxygen is an essential element for life.",
+    "exampleTranslation": "الأكسجين عنصر أساسي للحياة."
+  },
+  {
+    "id": 494,
+    "word": "elementary",
+    "meaning": "ابتدائي / أساسي",
+    "example": "He teaches at an elementary school.",
+    "exampleTranslation": "يُدرّس في مدرسة ابتدائية."
+  },
+  {
+    "id": 495,
+    "word": "eliminate",
+    "meaning": "يزيل / يقضي على",
+    "example": "We must eliminate corruption.",
+    "exampleTranslation": "يجب علينا القضاء على الفساد."
+  },
+  {
+    "id": 496,
+    "word": "elite",
+    "meaning": "نخبة / صفوة",
+    "example": "The elite of society attended the event.",
+    "exampleTranslation": "حضرت نخبة المجتمع الحدث."
+  },
+  {
+    "id": 497,
+    "word": "else",
+    "meaning": "آخر / شيء آخر",
+    "example": "Do you need anything else?",
+    "exampleTranslation": "هل تحتاج أي شيء آخر؟"
+  },
+  {
+    "id": 498,
+    "word": "elsewhere",
+    "meaning": "في مكان آخر",
+    "example": "She looked elsewhere for a new job.",
+    "exampleTranslation": "بحثت في مكان آخر عن وظيفة جديدة."
+  },
+  {
+    "id": 499,
+    "word": "embrace",
+    "meaning": "يحتضن / يتقبل",
+    "example": "They embraced each other warmly.",
+    "exampleTranslation": "احتضنوا بعضهم بحرارة."
+  }
+
+
+]
