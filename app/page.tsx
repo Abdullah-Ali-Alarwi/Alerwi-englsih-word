@@ -35,9 +35,11 @@ export default function HomePage() {
 
       {/* Content */}
       {words.length === 0 ? (
-        <p className="text-gray-400 text-lg">
-          No words yet! Add new words to start building your vocabulary.
+       <div className="w-full h-full flex justify-center items-center">
+         <p className="text-gray-400 text-lg m-auto mt-[250px]">
+         loading...
         </p>
+       </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {words.map((w, index) => (
