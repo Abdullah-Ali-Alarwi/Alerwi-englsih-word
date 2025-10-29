@@ -26,7 +26,7 @@ export default function WordForm({ onAdd }: { onAdd: (word: Word) => void }) {
     e.preventDefault();
 
     if (!form.word || !form.meaning) {
-      alert("Please fill in at least the word and meaning.");
+      alert("الرجاء ملء الحقول المطلوبة: الكلمة والمعنى.");
       return;
     }
 
@@ -50,28 +50,28 @@ export default function WordForm({ onAdd }: { onAdd: (word: Word) => void }) {
         name="word"
         value={form.word}
         onChange={handleChange}
-        placeholder="Word"
+        placeholder="الكلمة"
         className="p-2 rounded bg-gray-700 text-white"
       />
       <input
         name="meaning"
         value={form.meaning}
         onChange={handleChange}
-        placeholder="Meaning"
+        placeholder="المعنى"
         className="p-2 rounded bg-gray-700 text-white"
       />
       <textarea
         name="example"
         value={form.example}
         onChange={handleChange}
-        placeholder="Example sentence"
+        placeholder="جملة المثال"
         className="p-2 rounded bg-gray-700 text-white"
       />
       <textarea
         name="exampleTranslation"
         value={form.exampleTranslation}
         onChange={handleChange}
-        placeholder="Example translation"
+        placeholder="ترجمة المثال"
         className="p-2 rounded bg-gray-700 text-white"
       />
 
@@ -79,7 +79,7 @@ export default function WordForm({ onAdd }: { onAdd: (word: Word) => void }) {
         type="submit"
         className="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded transition"
       >
-        Add Word
+        أضف الكلمة
       </button>
     </form>
   );

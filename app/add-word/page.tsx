@@ -17,7 +17,7 @@ export default function AddWordPage() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6 flex flex-col items-center">
-      <h1 className="text-3xl font-bold mb-6 text-yellow-400">Add New Word</h1>
+      <h1 className="text-3xl font-bold mb-6 text-yellow-400">إضافة كلمة جديدة</h1>
 
       {/* نموذج إضافة الكلمة */}
       <div className="w-full max-w-md">
@@ -29,7 +29,7 @@ export default function AddWordPage() {
         href="/"
         className="mt-6 bg-gray-700 hover:bg-gray-600 text-white px-6 py-2 rounded transition-colors"
       >
-        Back to Home
+        العودة إلى الرئيسية
       </Link>
     </div>
   );

@@ -1,4 +1,4 @@
-import wordsData from "@/data/words.json"; // افترض أن لديك ملف words.json في نفس المجلد
+import wordsData from "@/data/words.json"; // ملف الكلمات
 export interface Word {
   id: number;
   word: string;
@@ -9,7 +9,9 @@ export interface Word {
 
 const WORDS_KEY = "words";
 const FAVORITES_KEY = "favorites";
+const WORD_STATUS_KEY = "wordStatusMap"; // جديد لإدارة الحالة
 
+// =================== كلمات ===================
 // جلب جميع الكلمات
 export function getWords(): Word[] {
   if (typeof window === "undefined") return [];
@@ -19,7 +21,7 @@ export function getWords(): Word[] {
     return JSON.parse(localData);
   }
 
-  // إذا كان LocalStorage فارغًا، استخدم البيانات من JSON
+  // إذا LocalStorage فارغ، استخدم JSON
   localStorage.setItem(WORDS_KEY, JSON.stringify(wordsData));
   return wordsData;
 }
@@ -36,6 +38,7 @@ export function addWord(newWord: Word) {
   }
 }
 
+// =================== المفضلة ===================
 // جلب المفضلة
 export function getFavorites(): Word[] {
   if (typeof window === "undefined") return [];
@@ -59,4 +62,34 @@ export function removeFromFavorites(id: number) {
   if (typeof window === "undefined") return;
   const favorites = getFavorites().filter((w) => w.id !== id);
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+}
+
+// =================== حالة الكلمات ===================
+// جلب حالة كل الكلمات
+export function getWordStatusMap(): { [key: number]: "studying" | "saved" } {
+  if (typeof window === "undefined") return {};
+  const data = localStorage.getItem(WORD_STATUS_KEY);
+  return data ? JSON.parse(data) : {};
+}
+
+// تحديث حالة كلمة واحدة
+export function setWordStatus(id: number, status: "studying" | "saved") {
+  if (typeof window === "undefined") return;
+  const statusMap = getWordStatusMap();
+  statusMap[id] = status;
+  localStorage.setItem(WORD_STATUS_KEY, JSON.stringify(statusMap));
+}
+
+// تهيئة جميع الحالات: إذا لم يكن للكلمة حالة، اجعلها studying
+export function initializeWordStatuses() {
+  const words = getWords();
+  const statusMap = getWordStatusMap();
+
+  words.forEach((w) => {
+    if (!statusMap[w.id]) {
+      statusMap[w.id] = "studying"; // الحالة الافتراضية
+    }
+  });
+
+  localStorage.setItem(WORD_STATUS_KEY, JSON.stringify(statusMap));
 }
