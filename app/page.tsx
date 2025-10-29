@@ -14,7 +14,7 @@ export default function HomePage() {
   const [wordStatusMap, setWordStatusMap] = useState<{ [key: number]: WordStatus }>({});
   const wordRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
 
-  // تحميل الكلمات والمفضلة وحالة التثبيت وحالة الكلمات
+  // تحميل البيانات من localStorage
   useEffect(() => {
     setWords(getWords());
     setFavorites(getFavorites());
@@ -28,8 +28,9 @@ export default function HomePage() {
 
   // تحديث localStorage والتمرير عند تغيير pinnedWordId
   useEffect(() => {
-    if (pinnedWordId !== null && wordRefs.current[pinnedWordId]) {
-      wordRefs.current[pinnedWordId]?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (pinnedWordId !== null) {
+      const element = wordRefs.current[pinnedWordId];
+      element?.scrollIntoView({ behavior: "smooth", block: "start" });
       localStorage.setItem("pinnedWordId", pinnedWordId.toString());
     }
   }, [pinnedWordId]);
@@ -42,6 +43,7 @@ export default function HomePage() {
     localStorage.setItem("wordStatusMap", JSON.stringify(updatedMap));
   };
 
+  // تغيير التثبيت
   const togglePin = (id: number) => {
     if (pinnedWordId === id) {
       setPinnedWordId(null);
@@ -51,6 +53,7 @@ export default function HomePage() {
     }
   };
 
+  // إضافة كلمة للمفضلة
   const handleAddFavorite = (word: Word) => {
     const isAlreadyFavorite = favorites.some((f) => f.id === word.id);
     if (!isAlreadyFavorite) {
@@ -67,13 +70,13 @@ export default function HomePage() {
     <div className="min-h-screen bg-gray-900 text-white p-6">
       {/* Header */}
       <header className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
-        <h1 className="text-3xl font-bold text-yellow-400">Al-Arwi Dictionary</h1>
+        <h1 className="text-3xl font-bold text-yellow-400">قاموس العروي</h1>
         <div className="flex gap-4 flex-wrap">
           <Link
             href="/add-word"
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded transition-colors"
           >
-           إضافة كلمة 
+            إضافة كلمة
           </Link>
           <Link
             href="/review"
@@ -86,18 +89,14 @@ export default function HomePage() {
             className="bg-gray-600 hover:bg-green-700 text-white px-4 py-2 rounded transition-colors flex items-center gap-2"
           >
             الكلمات المحفوظة
-            <span className="bg-gray-100 text-black px-2 py-0.5 rounded-full text-sm">
-              {savedCount}
-            </span>
+            <span className="bg-gray-100 text-black px-2 py-0.5 rounded-full text-sm">{savedCount}</span>
           </Link>
           <Link
             href="/studying"
             className="bg-gray-600 hover:bg-green-700 text-white px-4 py-2 rounded transition-colors flex items-center gap-2"
           >
             قيد الدراسة
-            <span className="bg-gray-100 text-black px-2 py-0.5 rounded-full text-sm">
-              {studyingCount}
-            </span>
+            <span className="bg-gray-100 text-black px-2 py-0.5 rounded-full text-sm">{studyingCount}</span>
           </Link>
         </div>
       </header>
@@ -117,7 +116,7 @@ export default function HomePage() {
             return (
               <div
                 key={w.id}
-                ref={(el) => (wordRefs.current[w.id] = el)}
+                ref={(el) => { wordRefs.current[w.id] = el; }} // ✅ void ref
                 className={`relative p-5 rounded-xl shadow-lg border border-gray-700 transition
                   ${isPinned ? "bg-green-900" : "bg-gray-800"} hover:shadow-2xl`}
               >
