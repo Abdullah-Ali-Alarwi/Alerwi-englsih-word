@@ -24,7 +24,7 @@ export default function SavedPage() {
         <div>
           <h1 className="text-3xl font-bold text-yellow-400">الكلمات المحفوظة</h1>
           <p className="text-gray-300 mt-1">
-           عدد الكلمات المحفوظة: <span className="font-semibold">{savedWords.length}</span>
+            عدد الكلمات المحفوظة: <span className="font-semibold">{savedWords.length}</span>
           </p>
         </div>
 
@@ -32,18 +32,17 @@ export default function SavedPage() {
           href="/"
           className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded"
         >
-         الصفحة الرئيسية
+          الصفحة الرئيسية
         </Link>
       </header>
 
       {savedWords.length === 0 ? (
-       
-          <div className="w-full h-full flex justify-center items-center">
-           <p className="text-gray-400">لا توجد كلمات محفوظة بعد.</p>
+        <div className="w-full h-full flex justify-center items-center">
+          <p className="text-gray-400">لا توجد كلمات محفوظة بعد.</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {savedWords.map((w, index) => (
+          {savedWords.slice().reverse().map((w, index) => (
             <div key={w.id} className="bg-gray-800 p-5 rounded-xl shadow-lg border border-gray-700">
               <WordCard
                 id={index + 1}
