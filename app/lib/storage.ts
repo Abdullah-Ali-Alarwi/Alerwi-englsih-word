@@ -1,4 +1,9 @@
-import wordsData from "@/data/words.json"; // ملف الكلمات
+// app/lib/storage.ts
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
+import wordsData from "@/data/words.json";
+
+// تعريف نوع الكلمة
 export interface Word {
   id: number;
   word: string;
@@ -7,89 +12,90 @@ export interface Word {
   exampleTranslation: string;
 }
 
-const WORDS_KEY = "words";
-const FAVORITES_KEY = "favorites";
-const WORD_STATUS_KEY = "wordStatusMap"; // جديد لإدارة الحالة
+type WordStatus = "studying" | "saved";
 
-// =================== كلمات ===================
-// جلب جميع الكلمات
-export function getWords(): Word[] {
-  if (typeof window === "undefined") return [];
+// تعريف الـ store
+interface WordStore {
+  words: Word[];
+  favorites: Word[];
+  wordStatusMap: { [key: number]: WordStatus };
+  pinnedWordId: number | null;
 
-  const localData = localStorage.getItem(WORDS_KEY);
-  if (localData) {
-    return JSON.parse(localData);
-  }
-
-  // إذا LocalStorage فارغ، استخدم JSON
-  localStorage.setItem(WORDS_KEY, JSON.stringify(wordsData));
-  return wordsData;
+  // الدوال
+  toggleWordStatus: (id: number) => void;
+  addFavorite: (word: Word) => void;
+  removeFavorite: (id: number) => void;
+  addWord: (word: Word) => void;
+  initializeStatuses: () => void;
+  setPinnedWordId: (id: number | null) => void;
 }
 
-// إضافة كلمة جديدة
-export function addWord(newWord: Word) {
-  if (typeof window === "undefined") return;
+// إنشاء الـ store
+export const useWordStore = create<WordStore>()(
+  persist(
+    (set, get) => ({
+      words: wordsData,
+      favorites: [],
+      wordStatusMap: {},
+      pinnedWordId: null,
 
-  const words = getWords();
-  const exists = words.some((w) => w.word === newWord.word);
-  if (!exists) {
-    words.push(newWord);
-    localStorage.setItem(WORDS_KEY, JSON.stringify(words));
-  }
-}
+      addWord: (newWord: Word) => {
+        const words = get().words;
+        if (!words.some((w) => w.word === newWord.word)) {
+          set({ words: [...words, newWord] });
+        }
+      },
 
-// =================== المفضلة ===================
-// جلب المفضلة
-export function getFavorites(): Word[] {
-  if (typeof window === "undefined") return [];
-  const data = localStorage.getItem(FAVORITES_KEY);
-  return data ? JSON.parse(data) : [];
-}
+      initializeStatuses: () => {
+        const words = get().words.length ? get().words : wordsData;
+        const statusMap: { [key: number]: WordStatus } = {};
+        words.forEach((w) => {
+          statusMap[w.id] = get().wordStatusMap[w.id] || "studying";
+        });
+        set({ words, wordStatusMap: statusMap });
+      },
 
-// إضافة إلى المفضلة
-export function addToFavorites(word: Word) {
-  if (typeof window === "undefined") return;
-  const favorites = getFavorites();
-  const exists = favorites.some((w) => w.id === word.id);
-  if (!exists) {
-    favorites.push(word);
-    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
-  }
-}
+      toggleWordStatus: (id: number) => {
+        const currentStatus = get().wordStatusMap[id] || "studying";
+        set({
+          wordStatusMap: {
+            ...get().wordStatusMap,
+            [id]: currentStatus === "studying" ? "saved" : "studying",
+          },
+        });
+      },
 
-// إزالة من المفضلة
-export function removeFromFavorites(id: number) {
-  if (typeof window === "undefined") return;
-  const favorites = getFavorites().filter((w) => w.id !== id);
-  localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
-}
+      addFavorite: (word: Word) => {
+        const favorites = get().favorites;
+        if (!favorites.some((f) => f.id === word.id)) {
+          set({ favorites: [...favorites, word] });
+        }
+      },
 
-// =================== حالة الكلمات ===================
-// جلب حالة كل الكلمات
-export function getWordStatusMap(): { [key: number]: "studying" | "saved" } {
-  if (typeof window === "undefined") return {};
-  const data = localStorage.getItem(WORD_STATUS_KEY);
-  return data ? JSON.parse(data) : {};
-}
+      removeFavorite: (id: number) => {
+        set({ favorites: get().favorites.filter((f) => f.id !== id) });
+      },
 
-// تحديث حالة كلمة واحدة
-export function setWordStatus(id: number, status: "studying" | "saved") {
-  if (typeof window === "undefined") return;
-  const statusMap = getWordStatusMap();
-  statusMap[id] = status;
-  localStorage.setItem(WORD_STATUS_KEY, JSON.stringify(statusMap));
-}
-
-// تهيئة جميع الحالات: إذا لم يكن للكلمة حالة، اجعلها studying
-export function initializeWordStatuses() {
-  const words = getWords();
-  const statusMap = getWordStatusMap();
-
-  words.forEach((w) => {
-    if (!statusMap[w.id]) {
-      statusMap[w.id] = "studying"; // الحالة الافتراضية
+      setPinnedWordId: (id: number | null) => {
+        set({ pinnedWordId: id });
+      },
+    }),
+    {
+      name: "word-storage",
+      partialize: (state) => ({
+        words: state.words,
+        favorites: state.favorites,
+        wordStatusMap: state.wordStatusMap,
+        pinnedWordId: state.pinnedWordId,
+      }),
     }
-  });
+  )
+);
 
-  localStorage.setItem(WORD_STATUS_KEY, JSON.stringify(statusMap));
-}
+// دوال مساعدة يمكن استدعاؤها مباشرة
+export const getFavorites = () => useWordStore.getState().favorites;
+
+export const removeFromFavorites = (id: number) =>
+  useWordStore.getState().favorites.find((f) => f.id === id)
+    ? useWordStore.getState().removeFavorite(id)
+    : null;

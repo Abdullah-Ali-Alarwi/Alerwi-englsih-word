@@ -3,15 +3,16 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import WordForm, { Word } from "@/app/components/WordForm";
-import { addWord as storeWord } from "@/app/lib/storage";
+import { useWordStore } from "@/app/lib/storage";
 
 export default function AddWordPage() {
   const router = useRouter();
+  const addWord = useWordStore((state) => state.addWord);
 
-  // دالة لإضافة الكلمة وتخزينها في LocalStorage
+  // دالة لإضافة الكلمة وتخزينها في الـ store
   const handleAdd = (newWord: Word) => {
-    storeWord(newWord);
-    alert("✅ Word added successfully!");
+    addWord(newWord);
+    alert("✅ تمت إضافة الكلمة بنجاح!");
     router.push("/review"); // الانتقال لصفحة المراجعة بعد الإضافة
   };
 

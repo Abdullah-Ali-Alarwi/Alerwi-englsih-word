@@ -1,21 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import { getWords, Word } from "@/app/lib/storage";
+import { useWordStore } from "@/app/lib/storage";
 import WordCard from "@/app/components/WordCard";
 
 export default function SavedPage() {
-  const [words, setWords] = useState<Word[]>([]);
-  const [wordStatusMap, setWordStatusMap] = useState<{ [key: number]: "studying" | "saved" }>({});
+  const { words, wordStatusMap } = useWordStore();
 
-  useEffect(() => {
-    setWords(getWords());
-    const savedStatuses = localStorage.getItem("wordStatusMap");
-    if (savedStatuses) setWordStatusMap(JSON.parse(savedStatuses));
-  }, []);
-
-  // فلتر الكلمات التي حالتها saved
+  // فلتر الكلمات التي حالتها "saved"
   const savedWords = words.filter((w) => wordStatusMap[w.id] === "saved");
 
   return (
@@ -27,13 +18,6 @@ export default function SavedPage() {
             عدد الكلمات المحفوظة: <span className="font-semibold">{savedWords.length}</span>
           </p>
         </div>
-
-        <Link
-          href="/"
-          className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded"
-        >
-          الصفحة الرئيسية
-        </Link>
       </header>
 
       {savedWords.length === 0 ? (
