@@ -6,8 +6,8 @@ import WordCard from "@/app/components/WordCard";
 export default function StudyingPage() {
   const { words, wordStatusMap, toggleWordStatus } = useWordStore();
 
-  // فلتر الكلمات التي حالتها "studying"
-  const studyingWords = words.filter((w) => wordStatusMap[w.id] === "studying");
+  // فلتر الكلمات: كل شيء ما عدا "saved"
+  const studyingWords = words.filter((w) => wordStatusMap[w.id] !== "saved");
 
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
@@ -26,10 +26,10 @@ export default function StudyingPage() {
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {studyingWords.map((w, index) => (
+          {studyingWords.map((w) => (
             <div key={w.id} className="bg-gray-800 p-5 rounded-xl shadow-lg border border-gray-700">
               <WordCard
-                id={index + 1}
+                id={w.id}
                 word={w.word}
                 meaning={w.meaning}
                 example={w.example}
@@ -41,7 +41,7 @@ export default function StudyingPage() {
                 onClick={() => toggleWordStatus(w.id)}
                 className="mt-3 w-full py-2 rounded bg-blue-600 hover:bg-blue-500 transition"
               >
-                {wordStatusMap[w.id] === "studying" ? "قيد الدراسة" : "محفوظة"}
+                {wordStatusMap[w.id] !== "saved" ? "قيد الدراسة" : "محفوظة"}
               </button>
             </div>
           ))}

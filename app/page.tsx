@@ -36,7 +36,9 @@ export default function HomePage() {
     <div className="min-h-screen bg-gray-900 text-white p-3">
 
     <Image src={logo} alt="Dictionary" width={120} height={120} className="md:hidden  mb-3  m-auto " />
-
+    <p className="border border-amber-400 p-2 rounded-md my-4 text-center">
+      بـحفظ 2,500–3,000 كلمة، يمكنك فهم 90% من المحادثات اليومية والمقالات والعمل، وتتعلم 10% المتبقية من السياق أو بالاستفسار. تعلم الكلمات الصحيحة يجعل مفرداتك الإنجليزية فعّالة.
+</p>
       {words.length === 0 ? (
         <div className="w-full h-full flex justify-center items-center">
           <p className="text-gray-400 text-lg m-auto mt-[250px]">
