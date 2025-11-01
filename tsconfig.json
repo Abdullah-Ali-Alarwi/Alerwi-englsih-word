@@ -37,7 +37,7 @@
     "**/*.mts",
     ".next\\dev/types/**/*.ts",
     ".next\\dev/types/**/*.ts"
-, "app/lib/findDuplicates.js"  ],
+, "app/lib/findDuplicates.js", "scripts/checkMissingTranslation.js"  ],
   "exclude": [
     "node_modules"
   ]

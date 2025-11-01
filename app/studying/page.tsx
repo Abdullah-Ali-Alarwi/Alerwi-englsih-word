@@ -4,7 +4,7 @@ import { useWordStore } from "@/app/lib/storage";
 import WordCard from "@/app/components/WordCard";
 
 export default function StudyingPage() {
-  const { words, wordStatusMap, toggleWordStatus } = useWordStore();
+  const { words, favorites, wordStatusMap, toggleWordStatus, addFavorite } = useWordStore();
 
   // فلتر الكلمات: كل شيء ما عدا "saved"
   const studyingWords = words.filter((w) => wordStatusMap[w.id] !== "saved");
@@ -26,25 +26,43 @@ export default function StudyingPage() {
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {studyingWords.map((w) => (
-            <div key={w.id} className="bg-gray-800 p-5 rounded-xl shadow-lg border border-gray-700">
-              <WordCard
-                id={w.id}
-                word={w.word}
-                meaning={w.meaning}
-                example={w.example}
-                exampleTranslation={w.exampleTranslation}
-              />
+          {studyingWords.map((w) => {
+            const isFavorite = favorites.some((f) => f.id === w.id);
 
-              {/* زر تغيير الحالة */}
-              <button
-                onClick={() => toggleWordStatus(w.id)}
-                className="mt-3 w-full py-2 rounded bg-blue-600 hover:bg-blue-500 transition"
-              >
-                {wordStatusMap[w.id] !== "saved" ? "قيد الدراسة" : "محفوظة"}
-              </button>
-            </div>
-          ))}
+            return (
+              <div key={w.id} className="bg-gray-800 p-5 rounded-xl shadow-lg border border-gray-700">
+                
+                <WordCard
+                  id={w.id}
+                  word={w.word}
+                  meaning={w.meaning}
+                  example={w.example}
+                  exampleTranslation={w.exampleTranslation}
+                />
+
+                {/* زر تغيير الحالة إلى محفوظة */}
+                <button
+                  onClick={() => toggleWordStatus(w.id)}
+                  className="mt-3 w-full py-2 rounded bg-green-600 hover:bg-green-500 transition font-semibold"
+                >
+                  🎯 نقل إلى المحفوظة
+                </button>
+
+                {/* زر إضافة للمفضلة */}
+                <button
+                  onClick={() => addFavorite(w)}
+                  disabled={isFavorite}
+                  className={`mt-2 w-full py-2 rounded transition ${
+                    isFavorite
+                      ? "bg-gray-600 cursor-not-allowed"
+                      : "bg-gray-700 hover:bg-green-900"
+                  }`}
+                >
+                  {isFavorite ? "❤️ أضيفت للمفضلة" : "🤍 أضف للمفضلة"}
+                </button>
+              </div>
+            );
+          })}
         </div>
       )}
     </div>

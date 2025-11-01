@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import WordCard from "@/app/components/WordCard";
 import { useWordStore } from "@/app/lib/storage";
 import Image from "next/image";
-import logo from "@/public/dictionaryLogo.png"
+import logo from "@/public/dictionaryLogo.png";
 
 export default function HomePage() {
   const {
@@ -15,9 +15,15 @@ export default function HomePage() {
     addFavorite,
     pinnedWordId,
     setPinnedWordId,
+    initializeStatuses, // ✅ استدعاء الدالة
   } = useWordStore();
 
   const wordRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
+
+  // ✅ تشغيل مزامنة البيانات عند فتح الصفحة
+  useEffect(() => {
+    initializeStatuses();
+  }, [initializeStatuses]);
 
   // تمرير تلقائي عند تغيير pinnedWordId
   useEffect(() => {
@@ -34,11 +40,12 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white p-3">
+      <Image src={logo} alt="Dictionary" width={120} height={120} className="md:hidden mb-3 m-auto" />
 
-    <Image src={logo} alt="Dictionary" width={120} height={120} className="md:hidden  mb-3  m-auto " />
-    <p className="border border-amber-400 p-2 rounded-md my-4 text-center">
-      بـحفظ 2,500–3,000 كلمة، يمكنك فهم 90% من المحادثات اليومية والمقالات والعمل، وتتعلم 10% المتبقية من السياق أو بالاستفسار. تعلم الكلمات الصحيحة يجعل مفرداتك الإنجليزية فعّالة.
-</p>
+      <p className="border border-amber-400 p-2 rounded-md my-4 text-center">
+        بـحفظ 2,500–3,000 كلمة، يمكنك فهم 90% من المحادثات اليومية...
+      </p>
+
       {words.length === 0 ? (
         <div className="w-full h-full flex justify-center items-center">
           <p className="text-gray-400 text-lg m-auto mt-[250px]">
@@ -64,7 +71,9 @@ export default function HomePage() {
                   <button
                     onClick={() => toggleWordStatus(w.id)}
                     className={`ml-2 px-2 py-1 rounded text-xs font-semibold transition ${
-                      wordStatus === "saved" ? "bg-green-500 text-black" : "bg-gray-600 text-white"
+                      wordStatus === "saved"
+                        ? "bg-green-500 text-black"
+                        : "bg-gray-600 text-white"
                     }`}
                   >
                     {wordStatus === "saved" ? "محفوظة" : "قيد الدراسة"}

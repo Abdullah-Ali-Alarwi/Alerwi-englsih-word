@@ -47,12 +47,26 @@ export const useWordStore = create<WordStore>()(
       },
 
       initializeStatuses: () => {
-        const words = get().words.length ? get().words : wordsData;
-        const statusMap: { [key: number]: WordStatus } = {};
-        words.forEach((w) => {
-          statusMap[w.id] = get().wordStatusMap[w.id] || "studying";
-        });
-        set({ words, wordStatusMap: statusMap });
+        const state = get();
+        const storedWords = state.words;
+        const initialWords = wordsData;
+
+        // تحقق إذا بيانات JSON تغيرت
+        const isChanged =
+          storedWords.length !== initialWords.length ||
+          storedWords.some((w, i) => w.id !== initialWords[i].id);
+
+        if (isChanged) {
+          const statusMap: { [key: number]: WordStatus } = {};
+          initialWords.forEach((w) => {
+            statusMap[w.id] = state.wordStatusMap[w.id] || "studying";
+          });
+
+          set({
+            words: initialWords,
+            wordStatusMap: statusMap,
+          });
+        }
       },
 
       toggleWordStatus: (id: number) => {
@@ -83,10 +97,10 @@ export const useWordStore = create<WordStore>()(
     {
       name: "word-storage",
       partialize: (state) => ({
-        words: state.words,
         favorites: state.favorites,
         wordStatusMap: state.wordStatusMap,
         pinnedWordId: state.pinnedWordId,
+        words: state.words, // نحتفظ بالكلمات بس نحدثها إذا تغير JSON
       }),
     }
   )
