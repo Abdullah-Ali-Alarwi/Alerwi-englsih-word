@@ -1,20 +1,29 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useWordStore, Word } from "@/app/lib/storage";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa"; // ✅ أيقونات من react-icons
 
 export default function ReviewPage() {
   const { words, favorites, addFavorite } = useWordStore();
   const [index, setIndex] = useState(0);
   const [searchWord, setSearchWord] = useState("");
   const [searchId, setSearchId] = useState("");
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   if (words.length === 0) {
     return (
       <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center">
         <p className="text-xl mb-4">لا توجد كلمات بعد! أضف كلمات لبدء المراجعة.</p>
-        <Link href="/" className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-500 transition">
+        <Link
+          href="/"
+          className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-500 transition"
+        >
           العودة إلى الرئيسية
         </Link>
       </div>
@@ -50,11 +59,13 @@ export default function ReviewPage() {
     }
   };
 
-  const speakText = (text: string) => {
-    if ("speechSynthesis" in window) {
+  const speakText = (text: string, lang: string = "en-US") => {
+    if (isClient && "speechSynthesis" in window) {
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "en-US";
+      utterance.lang = lang;
       window.speechSynthesis.speak(utterance);
+    } else {
+      console.warn("Speech synthesis not available on server side.");
     }
   };
 
@@ -115,7 +126,9 @@ export default function ReviewPage() {
             🔊 استمع للكلمة
           </button>
           <button
-            onClick={() => speakText(`${currentWord.example}. ${currentWord.exampleTranslation}`)}
+            onClick={() =>
+              speakText(`${currentWord.example}. ${currentWord.exampleTranslation}`)
+            }
             className="bg-green-600 px-3 py-2 rounded hover:bg-green-500 transition"
           >
             🔊 استمع للمثال
@@ -133,21 +146,24 @@ export default function ReviewPage() {
         </button>
       </div>
 
-      {/* أزرار التنقل */}
-      <div className="flex gap-4 mt-6">
+      {/* أزرار التنقل بالأيقونات من react-icons */}
+      <div className="flex gap-6 mt-6 items-center">
+            <button
+          onClick={nextWord}
+          className="bg-green-600 p-3 rounded-full hover:bg-green-500 transition flex items-center justify-center"
+          title="التالي"
+        >
+          <FaArrowCircleRight size={38} />
+        </button>
         <button
           onClick={prevWord}
-          className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-500 transition"
+          className="bg-blue-600 p-3 rounded-full hover:bg-blue-500 transition flex items-center justify-center"
+          title="السابق"
         >
-          Previous
+          <FaArrowCircleLeft size={38} />
         </button>
 
-        <button
-          onClick={nextWord}
-          className="bg-green-600 px-4 py-2 rounded hover:bg-green-500 transition"
-        >
-          Next
-        </button>
+    
 
         <Link
           href="/favorites"

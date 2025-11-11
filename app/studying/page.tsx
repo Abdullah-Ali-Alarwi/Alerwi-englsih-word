@@ -1,13 +1,22 @@
 "use client";
 
-import { useWordStore } from "@/app/lib/storage";
+import { useWordStore, Word } from "@/app/lib/storage";
 import WordCard from "@/app/components/WordCard";
 
 export default function StudyingPage() {
   const { words, favorites, wordStatusMap, toggleWordStatus, addFavorite } = useWordStore();
 
   // فلتر الكلمات: كل شيء ما عدا "saved"
-  const studyingWords = words.filter((w) => wordStatusMap[w.id] !== "saved");
+  const studyingWords: Word[] = words.filter((w) => wordStatusMap[w.id] !== "saved");
+
+  // دالة قراءة النصوص
+  const speakText = (text: string, lang: string = "en-US") => {
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang;
+      window.speechSynthesis.speak(utterance);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
@@ -22,7 +31,9 @@ export default function StudyingPage() {
 
       {studyingWords.length === 0 ? (
         <div className="w-full h-full flex justify-center items-center">
-          <p className="text-gray-400 text-lg m-auto mt-[250px]">لا توجد كلمات قيد الدراسة حاليًا.</p>
+          <p className="text-gray-400 text-lg m-auto mt-[250px]">
+            لا توجد كلمات قيد الدراسة حاليًا.
+          </p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -38,6 +49,7 @@ export default function StudyingPage() {
                   meaning={w.meaning}
                   example={w.example}
                   exampleTranslation={w.exampleTranslation}
+                  speakText={speakText} // ✅ تمرير الدالة
                 />
 
                 {/* زر تغيير الحالة إلى محفوظة */}

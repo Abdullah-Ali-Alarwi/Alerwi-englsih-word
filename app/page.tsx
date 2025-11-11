@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import WordCard from "@/app/components/WordCard";
 import { useWordStore } from "@/app/lib/storage";
 import Image from "next/image";
@@ -15,32 +15,55 @@ export default function HomePage() {
     addFavorite,
     pinnedWordId,
     setPinnedWordId,
-    initializeStatuses, // ✅ استدعاء الدالة
+    initializeStatuses,
   } = useWordStore();
 
   const wordRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
+  const [isClient, setIsClient] = useState(false); // ✅ حالة لتحديد المتصفح
 
-  // ✅ تشغيل مزامنة البيانات عند فتح الصفحة
+  // تشغيل مزامنة البيانات عند فتح الصفحة
   useEffect(() => {
     initializeStatuses();
   }, [initializeStatuses]);
 
+  // ضبط isClient بعد أول render
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   // تمرير تلقائي عند تغيير pinnedWordId
   useEffect(() => {
-    if (pinnedWordId !== null) {
+    if (isClient && pinnedWordId !== null) {
       const element = wordRefs.current[pinnedWordId];
       element?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  }, [pinnedWordId]);
+  }, [isClient, pinnedWordId]);
 
   const togglePin = (id: number) => {
     if (pinnedWordId === id) setPinnedWordId(null);
     else setPinnedWordId(id);
   };
 
+  // دالة قراءة النصوص (تعمل فقط على المتصفح)
+  const speakText = (text: string, lang: string = "en-US") => {
+    if (isClient) {
+      if ("speechSynthesis" in window) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = lang;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-900 text-white p-3">
-      <Image src={logo} alt="Dictionary" width={120} height={120} className="md:hidden mb-3 m-auto" />
+      <Image
+        src={logo}
+        alt="Dictionary"
+        width={120}
+        height={120}
+        className="md:hidden mb-3 m-auto"
+      />
 
       <p className="border border-amber-400 p-2 rounded-md my-4 text-center">
         بـحفظ 2,500–3,000 كلمة، يمكنك فهم 90% من المحادثات اليومية...
@@ -67,7 +90,7 @@ export default function HomePage() {
                   ${isPinned ? "bg-green-900" : "bg-gray-800"} hover:shadow-2xl`}
               >
                 {/* زر تغيير الحالة */}
-                <div className="absolute top-2 right-3 flex gap-2 items-center">
+                <div className=" top-2 right-3 flex gap-2 items-center">
                   <button
                     onClick={() => toggleWordStatus(w.id)}
                     className={`ml-2 px-2 py-1 rounded text-xs font-semibold transition ${
@@ -96,6 +119,7 @@ export default function HomePage() {
                   meaning={w.meaning}
                   example={w.example}
                   exampleTranslation={w.exampleTranslation}
+                  speakText={speakText} // تمرير الدالة لكرت الكلمة
                 />
 
                 {/* زر إضافة للمفضلة */}

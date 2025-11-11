@@ -1,13 +1,22 @@
 "use client";
 
-import { useWordStore } from "@/app/lib/storage";
+import { useWordStore, Word } from "@/app/lib/storage";
 import WordCard from "@/app/components/WordCard";
 
 export default function SavedPage() {
   const { words, wordStatusMap } = useWordStore();
 
   // فلتر الكلمات التي حالتها "saved"
-  const savedWords = words.filter((w) => wordStatusMap[w.id] === "saved");
+  const savedWords: Word[] = words.filter((w) => wordStatusMap[w.id] === "saved");
+
+  // دالة قراءة النصوص
+  const speakText = (text: string, lang: string = "en-US") => {
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang;
+      window.speechSynthesis.speak(utterance);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
@@ -29,11 +38,12 @@ export default function SavedPage() {
           {savedWords.slice().reverse().map((w, index) => (
             <div key={w.id} className="bg-gray-800 p-5 rounded-xl shadow-lg border border-gray-700">
               <WordCard
-                id={index + 1}
+                id={index + 1} // الترتيب حسب الظهور
                 word={w.word}
                 meaning={w.meaning}
                 example={w.example}
                 exampleTranslation={w.exampleTranslation}
+                speakText={speakText} // ✅ إضافة الدالة
               />
             </div>
           ))}

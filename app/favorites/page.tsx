@@ -7,10 +7,12 @@ export default function FavoritesPage() {
   const { favorites, removeFavorite } = useWordStore();
 
   const speakText = (text: string) => {
-    if ("speechSynthesis" in window) {
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "en-US";
       window.speechSynthesis.speak(utterance);
+    } else {
+      alert("🔊 قراءة النصوص غير مدعومة في هذا الجهاز أو أثناء البناء على السيرفر.");
     }
   };
 
@@ -34,10 +36,10 @@ export default function FavoritesPage() {
       <h1 className="text-4xl font-bold mb-6 text-yellow-400">المفضلة ({favorites.length})</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {favorites.map((word: Word) => (
+        {[...favorites].reverse().map((word: Word) => ( // ✅ عكس الترتيب
           <div
             key={word.id}
-            className="p-5 rounded-xl shadow-lg flex flex-col justify-between bg-gray-800 hover:bg-gray-700 transition cursor-pointer"
+            className="p-5 rounded-xl shadow-lg flex flex-col justify-between bg-gray-800 hover:bg-gray-700 transition"
           >
             <h2 className="text-2xl font-bold text-white">{word.word}</h2>
             <p className="text-gray-300 italic mb-1">{word.meaning}</p>
@@ -59,7 +61,9 @@ export default function FavoritesPage() {
               </button>
 
               <button
-                onClick={() => speakText(`${word.meaning}. ${word.example}. ${word.exampleTranslation}`)}
+                onClick={() =>
+                  speakText(`${word.meaning}. ${word.example}. ${word.exampleTranslation}`)
+                }
                 className="flex-1 bg-green-600 hover:bg-green-500 text-white py-2 rounded transition"
               >
                 🔊 قراءة المثال
