@@ -32,7 +32,7 @@ export default function WordCard({
   return (
     <div className="bg-gray-800 text-gray-100 p-4 rounded-xl shadow-md border border-gray-700 hover:shadow-lg transition-shadow space-y-3 relative">
       {/* زر جعل الكلمة صعبة */}
-      <div className="  flex  items-center justify-between">
+      <div className="  flex  items-center justify-end">
         <button
           onClick={handleMarkHard}
           className={`transition-colors ${
